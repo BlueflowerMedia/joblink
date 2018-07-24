@@ -1,0 +1,59 @@
+// slanted edge here
+.hero img {
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+.promo {
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
+
+// demo code below
+.hero {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  position: relative;
+  text-align: center;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0.5em;
+  }
+}
+.promo {
+  background: url(https://unsplash.it/1600/900?image=830) no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 50px 0;
+  overflow: hidden;
+  padding: 150px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0.5em;
+  }
+}
