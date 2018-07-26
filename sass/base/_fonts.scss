@@ -1,8 +1,8 @@
-@include google-font(Source Sans Pro, 300 400 600 700);
-@include google-font(Roboto Slab, 300 400 700);
+@include google-font(Lora, 400 400i 700);
+@include google-font(Open Sans, 400 700);
 
-$font-primary: 'Source Sans Pro', sans-serif;
-$font-secondary: 'Roboto Slab', serif;
+$font-primary: 'Lora', serif;
+$font-secondary: 'Open Sans', sans-serif;
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
 	margin-bottom: 0rem;
   font-weight: 700;
   line-height: 1.2;
-	color: black;
+	color: #fff;
 }
 
 h1 {

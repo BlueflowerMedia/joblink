@@ -24,13 +24,17 @@
 	<header id="masthead" class="site-header">
       <!-- navbar left -->
 			<div class="nav-left">
-				<p></p>
-
+				<p>JOB LINK</p>
       </div>
 
       <!-- navbar right -->
       <div class="nav-right">
 
+			<a href="#">Our Mission</a>
+			<a href="#">How it works</a>
+			<a href="#">Post a Job</a>
+			<a href="#">Find a Job</a>
+			<a href="#">Contact</a>
       </div>
 		</nav>
 	</header>

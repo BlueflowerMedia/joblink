@@ -1,0 +1,79 @@
+.site-footer{
+  background-color: #000;
+  .footer-left{
+    form {
+         text-align: center;
+       }
+    .one-row {
+       display: flex;
+       flex-flow: row wrap;
+
+     .one-half {
+       flex: 1;
+     }
+     .first{
+       margin-right: 10px;
+     }
+
+     input{
+     border-color: #44C5E6;
+     border-radius: 2.5vw;
+     border-width: .15vw;
+     padding: 1vw;
+     margin-bottom: 20px;
+     outline: none;
+     }
+   }
+   textarea{
+     padding: 1vw;
+     border-color: #44C5E6;
+     border-radius: 2.5vw;
+     border-width: .15vw;
+     width: 100%;
+     outline: none;
+   }
+   .wpcf7-submit {
+     background-color: #44C5E6;
+     color: #000;
+     font-size: 1.5rem;
+     border: none;
+     border-radius: 40px;
+     width: 10vw;
+     font-family: $font-primary;
+     padding: 1vw;
+     outline: none;
+     @media screen and (max-width: 600px){
+       width: 27vw;
+       border-radius: 30px;
+     }
+   }
+
+   @media only screen and (max-width: 1200px) {
+     .one-row{
+       .one-half {
+           width: 100%;
+           margin-right: 0;
+       }
+       .first{
+         margin-right: none;
+       }
+     }
+
+     textarea{
+       width: 100%;
+       outline: none;
+     }
+     .one-row > div:nth-child(1) > span > input{
+       width: 20vw;
+       outline: none;
+     }
+     .one-row > div:nth-child(2) > span > input{
+       width: 20vw;
+       outline: none;
+     }
+   }
+  }
+  .footer-right{
+
+  }
+}
