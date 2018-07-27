@@ -1467,7 +1467,8 @@ button.nav-contact {
   background-color: #2a2a2a; }
 
 .site-footer {
-  background-color: #000; }
+  background-color: #000;
+  margin-top: 10vh; }
   .site-footer .footer-left h3 {
     font-size: 38px; }
   .site-footer .footer-left form {
@@ -1656,21 +1657,24 @@ button.nav-contact {
       .how-it-works .how-container .how-right .image-container img {
         max-width: 70%; }
 
-.post-job p {
+.post-job p, .register-job p {
   color: #30A5EE;
   font-family: "Lora", serif;
-  text-align: center; }
-.post-job h3 {
-  color: #2a2a2a; }
-.post-job h3:after {
-  content: "";
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh; }
+.post-job h3, .register-job h3 {
+  color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 10vh; }
+.post-job h3::after, .post-job h3::before, .register-job h3::after, .register-job h3::before {
   display: inline-block;
-  height: 0.5em;
-  vertical-align: bottom;
-  width: 40%;
-  margin-right: -100%;
-  margin-left: 10px;
-  border-top: 1px solid #2a2a2a; }
+  content: "";
+  border-top: 2px solid black;
+  width: 22%;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+  vertical-align: bottom; }
 
 /* CONTACT FORM */
 #form-employer, #form-employee {
