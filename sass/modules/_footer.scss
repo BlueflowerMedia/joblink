@@ -1,79 +1,69 @@
 .site-footer{
   background-color: #000;
   .footer-left{
+    h3{
+      font-size: 38px;
+    }
     form {
          text-align: center;
+         max-width: 35vw;
        }
     .one-row {
        display: flex;
-       flex-flow: row wrap;
+       margin-top: 40px;
 
      .one-half {
-       flex: 1;
+      flex: 1;
      }
      .first{
-       margin-right: 10px;
+       margin-right: 20px;
      }
 
      input{
      border-color: #44C5E6;
      border-radius: 2.5vw;
      border-width: .15vw;
-     padding: 1vw;
-     margin-bottom: 20px;
+     padding: .5vw;
+     margin-bottom: 12px;
      outline: none;
+     max-width: 17vw;
      }
    }
    textarea{
      padding: 1vw;
-     border-color: #44C5E6;
-     border-radius: 2.5vw;
+     border-color: #30A5EE;
+     border-radius: 1.5vw;
      border-width: .15vw;
      width: 100%;
      outline: none;
+     height: 200px;
    }
    .wpcf7-submit {
-     background-color: #44C5E6;
+     background-color: #30A5EE;
      color: #000;
      font-size: 1.5rem;
      border: none;
      border-radius: 40px;
-     width: 10vw;
+     width: 8vw;
      font-family: $font-primary;
-     padding: 1vw;
+     padding: .5vw;
      outline: none;
-     @media screen and (max-width: 600px){
-       width: 27vw;
-       border-radius: 30px;
-     }
-   }
-
-   @media only screen and (max-width: 1200px) {
-     .one-row{
-       .one-half {
-           width: 100%;
-           margin-right: 0;
-       }
-       .first{
-         margin-right: none;
-       }
-     }
-
-     textarea{
-       width: 100%;
-       outline: none;
-     }
-     .one-row > div:nth-child(1) > span > input{
-       width: 20vw;
-       outline: none;
-     }
-     .one-row > div:nth-child(2) > span > input{
-       width: 20vw;
-       outline: none;
-     }
    }
   }
   .footer-right{
+    padding-left: 500px;
 
+    h3{
+      margin-bottom: 60px;
+      font-size: 38px;
+    }
+    p{
+      font-size: 22px;
+      color: #fff;
+      font-family: $font-primary;
+      margin: 0 !important;
+      letter-spacing: 1px;
+
+    }
   }
 }

@@ -1353,58 +1353,55 @@ button.nav-contact {
 
 .site-footer {
   background-color: #000; }
+  .site-footer .footer-left h3 {
+    font-size: 38px; }
   .site-footer .footer-left form {
-    text-align: center; }
+    text-align: center;
+    max-width: 35vw; }
   .site-footer .footer-left .one-row {
     display: flex;
-    flex-flow: row wrap; }
+    margin-top: 40px; }
     .site-footer .footer-left .one-row .one-half {
       flex: 1; }
     .site-footer .footer-left .one-row .first {
-      margin-right: 10px; }
+      margin-right: 20px; }
     .site-footer .footer-left .one-row input {
       border-color: #44C5E6;
       border-radius: 2.5vw;
       border-width: .15vw;
-      padding: 1vw;
-      margin-bottom: 20px;
-      outline: none; }
+      padding: .5vw;
+      margin-bottom: 12px;
+      outline: none;
+      max-width: 17vw; }
   .site-footer .footer-left textarea {
     padding: 1vw;
-    border-color: #44C5E6;
-    border-radius: 2.5vw;
+    border-color: #30A5EE;
+    border-radius: 1.5vw;
     border-width: .15vw;
     width: 100%;
-    outline: none; }
+    outline: none;
+    height: 200px; }
   .site-footer .footer-left .wpcf7-submit {
-    background-color: #44C5E6;
+    background-color: #30A5EE;
     color: #000;
     font-size: 1.5rem;
     border: none;
     border-radius: 40px;
-    width: 10vw;
+    width: 8vw;
     font-family: "Lora", serif;
-    padding: 1vw;
+    padding: .5vw;
     outline: none; }
-    @media screen and (max-width: 600px) {
-      .site-footer .footer-left .wpcf7-submit {
-        width: 27vw;
-        border-radius: 30px; } }
-  @media only screen and (max-width: 1200px) {
-    .site-footer .footer-left .one-row .one-half {
-      width: 100%;
-      margin-right: 0; }
-    .site-footer .footer-left .one-row .first {
-      margin-right: none; }
-    .site-footer .footer-left textarea {
-      width: 100%;
-      outline: none; }
-    .site-footer .footer-left .one-row > div:nth-child(1) > span > input {
-      width: 20vw;
-      outline: none; }
-    .site-footer .footer-left .one-row > div:nth-child(2) > span > input {
-      width: 20vw;
-      outline: none; } }
+  .site-footer .footer-right {
+    padding-left: 500px; }
+    .site-footer .footer-right h3 {
+      margin-bottom: 60px;
+      font-size: 38px; }
+    .site-footer .footer-right p {
+      font-size: 22px;
+      color: #fff;
+      font-family: "Lora", serif;
+      margin: 0 !important;
+      letter-spacing: 1px; }
 
 .head1 {
   background: url(images/action-adult-advice-1120344.jpg);
