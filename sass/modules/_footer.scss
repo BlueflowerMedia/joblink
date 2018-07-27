@@ -66,5 +66,17 @@
       letter-spacing: 1px;
 
     }
+
+    @media(max-width: 1200px){
+      padding-left: 100px;
+    }
   }
+
+  @media(max-width: 1200px){
+    .footer-left,.footer-right{
+justify-content: center;
+    }
+  }
+
+
 }

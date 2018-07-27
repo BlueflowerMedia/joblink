@@ -30,22 +30,20 @@
 
       <!-- navbar right -->
       <div class="nav-right">
-
 			<a href="#mission">Our Mission</a>
 			<a href="#works">How it works</a>
 			<a href="#postjob">Post a Job</a>
 			<a href="#register">Find a Job</a>
 			<a href="#colophon">Contact</a>
-
-				<!-- hamburger -->
-				<div class="hamburger" id="hamburger-9">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
-
       </div>
 
+			<!-- hamburger -->
+			<div class="hamburger" id="hamburger-9">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</div>
+			
 			<!-- dropdown -->
 			<div id="dropdown-menu" class="dropdown">
 				<ul>

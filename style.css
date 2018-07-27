@@ -1356,7 +1356,7 @@ button.nav-contact {
   .dropdown, .hamburger {
     display: none; } }
 @media (max-width: 1110px) {
-  .nav-right a {
+  .nav-right {
     display: none; } }
 .dropdown {
   position: fixed;
@@ -1410,11 +1410,9 @@ button.nav-contact {
 
 .hamburger {
   z-index: 999;
-  top: 20px;
-  right: 20px;
-  padding: 6vw 0 6vw 20vw;
-  align-items: center;
-  justify-content: center; }
+  padding: 20px 0;
+  flex: 1;
+  justify-content: flex-end; }
 
 .hamburger .line {
   width: 35px;
@@ -1519,6 +1517,12 @@ button.nav-contact {
       font-family: "Lora", serif;
       margin: 0 !important;
       letter-spacing: 1px; }
+    @media (max-width: 1200px) {
+      .site-footer .footer-right {
+        padding-left: 100px; } }
+  @media (max-width: 1200px) {
+    .site-footer .footer-left, .site-footer .footer-right {
+      justify-content: center; } }
 
 .head1 {
   background: url(images/action-adult-advice-1120344.jpg);

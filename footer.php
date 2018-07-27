@@ -16,11 +16,11 @@
 	<div class="margin-for-footer"></div>
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
-      <div class="footer-left flex1">
+      <div class="footer-left">
 				<h3>Have any questions?</h3>
 				<?php echo do_shortcode('[contact-form-7 id="12" title="Contact form footer"]') ?>
       </div>
-      <div class="footer-right flex1">
+      <div class="footer-right">
 				<h3>Contact Info.</h3>
 				<p><strong>Call: </strong>647-999-999</p><br>
 				<p><strong>Email: </strong>info@joblink.com</p><br>

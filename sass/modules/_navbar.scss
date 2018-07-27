@@ -57,10 +57,7 @@
 //Main menu is hidden for screen below 800px
 @media(max-width:1110px){
 	.nav-right{
-		a{
 					display: none;
-		}
-
 	}
 }
 
@@ -132,11 +129,9 @@
 
 .hamburger{
   z-index: 999;
-  top: 20px;
-  right: 20px;
-  padding: 6vw 0 6vw 20vw;
-	align-items: center;
-	justify-content: center;
+  padding: 20px 0;
+	flex: 1;
+	justify-content: flex-end;
 }
 
 .hamburger .line{
