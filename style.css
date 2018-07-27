@@ -1324,12 +1324,13 @@ button.nav-contact {
   justify-content: center;
   align-items: center;
   margin: auto 50px; }
-  .nav-left p {
+  .nav-left a {
     color: #fff;
     font-size: 30px;
     margin: 0 !important;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700; }
+    font-weight: 700;
+    text-decoration: none; }
 
 .nav-right {
   flex: 1;

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- BANNER  -->
-<div class="head1 bottom-right">
+<div id="banner" class="head1 bottom-right">
   <div class="layer">
     <div class="container-banner">
         <h1>Find the Right Person for Any Work</h1>

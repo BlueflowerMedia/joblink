@@ -24,17 +24,18 @@
 	<header id="masthead" class="site-header">
       <!-- navbar left -->
 			<div class="nav-left">
-				<p>JOB LINK</p>
+				<a href="#banner">JOB LINK</a>
+
       </div>
 
       <!-- navbar right -->
       <div class="nav-right">
 
-			<a href="#">Our Mission</a>
-			<a href="#">How it works</a>
-			<a href="#">Post a Job</a>
-			<a href="#">Find a Job</a>
-			<a href="#">Contact</a>
+			<a href="#mission">Our Mission</a>
+			<a href="#works">How it works</a>
+			<a href="#postjob">Post a Job</a>
+			<a href="#register">Find a Job</a>
+			<a href="#colophon">Contact</a>
 
 				<!-- hamburger -->
 				<div class="hamburger" id="hamburger-9">
@@ -49,11 +50,11 @@
 			<div id="dropdown-menu" class="dropdown">
 				<ul>
 					<li>JOB LINK</li>
-					<li><a href="#">Our Mission</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Post a Job</a></li>
-					<li><a href="#">Find a Job</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#mission">Our Mission</a></li>
+					<li><a href="#works">How it works</a></li>
+					<li><a href="#postjob">Post a Job</a></li>
+					<li><a href="#register">Find a Job</a></li>
+					<li><a href="#colophon">Contact</a></li>
 				</ul>
 			</div>
 
