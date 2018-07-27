@@ -35,7 +35,30 @@
 			<a href="#">Post a Job</a>
 			<a href="#">Find a Job</a>
 			<a href="#">Contact</a>
+
+				<!-- hamburger -->
+				<div class="hamburger" id="hamburger-9">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+
       </div>
+
+			<!-- dropdown -->
+			<div id="dropdown-menu" class="dropdown">
+				<ul>
+					<li>JOB LINK</li>
+					<li><a href="#">Our Mission</a></li>
+					<li><a href="#">How it works</a></li>
+					<li><a href="#">Post a Job</a></li>
+					<li><a href="#">Find a Job</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+
+
+
 		</nav>
 	</header>
 	<div id="content" class="site-content">

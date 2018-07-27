@@ -18,7 +18,7 @@
     <div class="container flex-row">
       <div class="footer-left flex1">
 				<h3>Have any questions?</h3>
-				<?php echo do_shortcode('[contact-form-7 id="6" title="Contact form 1"]') ?>
+				<?php echo do_shortcode('[contact-form-7 id="6" title="Contact form footer"]') ?>
       </div>
       <div class="footer-right flex1">
 				<h3>Contact Info.</h3>
