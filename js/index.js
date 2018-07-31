@@ -35,6 +35,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".button2").click(function(){
-    $(".apple-ball").toggleClass("is-on");
+    $(".ball-cat").toggleClass("is-on");
   })
 })

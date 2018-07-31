@@ -99,7 +99,7 @@
     <h3>Register</h3>
 
     <button type="button" name="button" class="button2">Click Me!</button>
-    <div class="apple-ball">
+    <div class="ball-cat">
 
     </div>
     <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
