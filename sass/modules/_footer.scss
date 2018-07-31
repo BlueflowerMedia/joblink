@@ -1,7 +1,10 @@
 .site-footer{
   background-color: #000;
   margin-top: 10vh;
+  display: flex;
   .footer-left{
+    padding: 100px;
+    align-items: center;
     h3{
       font-size: 38px;
     }
@@ -52,7 +55,7 @@
    }
   }
   .footer-right{
-    padding-left: 500px;
+    padding:100px;
 
     h3{
       margin-bottom: 60px;

@@ -7,7 +7,7 @@ $(function () {
   });
 });
 
-// dropdown menu
+// dropdown menu for mobile
 
 $(document).ready(function(){
   $(".hamburger").click(function(){
@@ -15,3 +15,26 @@ $(document).ready(function(){
     $("#dropdown-menu").toggleClass("drop");
   });
 });
+
+//click buttons
+
+// $(document).ready(function(){
+//   $(".button1").click(function(){
+//     $(".apple-ball").css({
+//       'height':'300px'
+//     })
+//   })
+// })
+
+
+$(document).ready(function(){
+  $(".button1").click(function(){
+    $(".apple-ball").toggleClass("is-on");
+  })
+})
+
+$(document).ready(function(){
+  $(".button2").click(function(){
+    $(".apple-ball").toggleClass("is-on");
+  })
+})

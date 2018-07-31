@@ -14,21 +14,19 @@
 	</div><!-- #content -->
 
 	<div class="margin-for-footer"></div>
-	<footer id="colophon" class="site-footer">
-    <div class="container flex-row">
-      <div class="footer-left">
-				<h3>Have any questions?</h3>
-				<?php echo do_shortcode('[contact-form-7 id="12" title="Contact form footer"]') ?>
-      </div>
-      <div class="footer-right">
-				<h3>Contact Info.</h3>
-				<p><strong>Call: </strong>647-999-999</p><br>
-				<p><strong>Email: </strong>info@joblink.com</p><br>
-				<p><strong>Address</strong></p><br>
-				<p>1232 Danforth Ave.</p>
-				<p>Toronto, ON M4C 1L2</p>
-				<p>Canada</p>
-      </div>
+	<footer id="colophon" class="site-footer flex-row">
+    <div class="footer-left">
+			<h3>Have any questions?</h3>
+			<?php echo do_shortcode('[contact-form-7 id="12" title="Contact form footer"]') ?>
+    </div>
+    <div class="footer-right">
+			<h3>Contact Info.</h3>
+			<p><strong>Call: </strong>647-999-999</p><br>
+			<p><strong>Email: </strong>info@joblink.com</p><br>
+			<p><strong>Address</strong></p><br>
+			<p>1232 Danforth Ave.</p>
+			<p>Toronto, ON M4C 1L2</p>
+			<p>Canada</p>
     </div>
 </footer>
 
