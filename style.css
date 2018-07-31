@@ -1530,25 +1530,27 @@ button.nav-contact {
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
-  background-position: center; }
+  background-position: center;
+  height: 80vh; }
   .head1 .layer {
     background-color: rgba(10, 10, 20, 0.4);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -999; }
+    z-index: -999;
+    height: 80vh; }
     .head1 .layer .container-banner {
       display: flex;
       flex-wrap: wrap;
-      max-width: 55%;
+      max-width: 50%;
       height: 900px;
       justify-content: center;
       text-align: center;
       margin: 0 auto; }
       .head1 .layer .container-banner h1 {
-        font-size: 100px;
-        margin: 300px 0 0 0 !important; }
+        font-size: 80px;
+        margin: 30vh 0 0 0 !important; }
         @media (max-width: 1110px) {
           .head1 .layer .container-banner h1 {
             font-size: 60px; } }
@@ -1567,12 +1569,11 @@ button.nav-contact {
   .our-mission .container-mission {
     background-image: url("./images/Asset 1.svg");
     background-size: cover;
-    transform: translateY(-40%);
-    padding: 300px 0 0 0;
-    z-index: -9999;
-    display: flex; }
+    transform: translateY(-50%);
+    padding: 50vh 0 15vh 0;
+    z-index: -9999; }
     .our-mission .container-mission .text-mission {
-      padding: 300px 200px 200px 500px; }
+      margin: 0 20vw; }
       .our-mission .container-mission .text-mission h4 {
         color: black;
         font-size: 2.5rem;
@@ -1588,25 +1589,32 @@ button.nav-contact {
         margin-left: 10px;
         border-top: 1px solid black; }
       .our-mission .container-mission .text-mission p {
-        padding: 0px 200px 0 100px;
-        font-size: 1.5rem;
+        padding: 0 0 0 100px;
+        font-size: 1.2rem;
         font-family: "Lora", serif;
-        line-height: 2.5rem; }
+        line-height: 2rem; }
+    @media (max-width: 765px) {
+      .our-mission .container-mission {
+        background-image: none;
+        background-color: #F4F4F4;
+        padding: 30vh 0 0 0; }
+        .our-mission .container-mission .text-mission {
+          margin: 5vw; } }
 
 .how-it-works .how-container {
   background-color: #F9F9F9;
-  height: 1100px;
+  height: 900px;
   display: flex; }
   .how-it-works .how-container .how-left {
     background-color: #30A5EE;
-    height: 1100px;
+    height: 900px;
     width: 70vw;
     border-top-right-radius: 110px; }
     .how-it-works .how-container .how-left h4 {
       color: white;
       font-size: 3rem;
       margin: 0 !important;
-      padding: 150px 200px 30px 200px; }
+      padding: 100px 200px 30px 200px; }
     .how-it-works .how-container .how-left h4:after {
       content: "";
       display: inline-block;
@@ -1618,7 +1626,7 @@ button.nav-contact {
       border-top: 1px solid white; }
     .how-it-works .how-container .how-left .bullet-text-container {
       display: flex;
-      margin: 120px 100px 120px 200px; }
+      margin: 80px 100px 120px 200px; }
       .how-it-works .how-container .how-left .bullet-text-container .circle {
         height: 80px;
         width: 80px;
@@ -1651,16 +1659,16 @@ button.nav-contact {
           font-style: italic;
           line-height: 40px; }
   .how-it-works .how-container .how-right {
-    height: 1100px;
+    height: 900px;
     width: 30vw;
     padding: 100px; }
     .how-it-works .how-container .how-right .image-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 40px 0px; }
+      padding: 20px 0px; }
       .how-it-works .how-container .how-right .image-container img {
-        max-width: 70%; }
+        max-width: 60%; }
 
 .post-job p, .register-job p {
   color: #30A5EE;
