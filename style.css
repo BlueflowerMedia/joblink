@@ -1349,7 +1349,7 @@ button.nav-contact {
 #masthead.scrolled {
   background-color: #fff;
   z-index: 9999999;
-  box-shadow: 5px -5px 1px; }
+  box-shadow: 5px -3px 10px #000; }
   #masthead.scrolled .nav-left p, #masthead.scrolled .nav-left a, #masthead.scrolled .nav-right p, #masthead.scrolled .nav-right a {
     color: black !important; }
 
