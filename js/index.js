@@ -1,30 +1,22 @@
 // navbar color change on scroll
-
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".site-header");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+  var navbar = $("#masthead");
+  if(scroll>0){
+    navbar.addClass("scrolled");
+  }else{
+    navbar.removeClass("scrolled");
+  }
 });
 
-// dropdown menu for mobile
 
+// dropdown menu for mobile
 $(document).ready(function(){
   $(".hamburger").click(function(){
     $(this).toggleClass("is-active");
     $("#dropdown-menu").toggleClass("drop");
   });
 });
-
-//click buttons
-
-// $(document).ready(function(){
-//   $(".button1").click(function(){
-//     $(".apple-ball").css({
-//       'height':'300px'
-//     })
-//   })
-// })
 
 
 $(document).ready(function(){
@@ -38,3 +30,5 @@ $(document).ready(function(){
     $(".ball-cat").toggleClass("is-on");
   })
 })
+
+document.getElementByClassName("is-on").style.height=document.getElementById("form-employee").style.height;

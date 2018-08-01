@@ -46,6 +46,9 @@
 				color:black !important;
 		}
 	}
+	.hamburger .line{
+		background-color: #000;
+	}
 }
 
 // dropdown and hamburger is hidden for screen greater than 800px
@@ -138,13 +141,13 @@
 .hamburger .line{
   width: 35px;
   height: 4px;
-  background-color: $white;
+ 	background-color: $white;
   display: block;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: $white;
+	align-items: flex-end;
 }
 
 .hamburger:hover{
@@ -164,23 +167,6 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   z-index: 99999;
-}
-
-#hamburger-9:before{
-  // content: "";
-  // position: absolute;
-  // -webkit-box-sizing: border-box;
-  // -moz-box-sizing: border-box;
-  // box-sizing: border-box;
-  // width: 50px;
-  // height: 50px;
-  //border: 4px solid transparent;
-  // top: calc(50% - 23px);
-  // left: calc(50% - 27px);
-  // border-radius: 100%;
-  // -webkit-transition: all 0.3s ease-in-out;
-  // -o-transition: all 0.3s ease-in-out;
-  // transition: all 0.3s ease-in-out;
 }
 
 #hamburger-9.is-active:before{

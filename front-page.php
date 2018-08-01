@@ -77,16 +77,13 @@
 <!-- post a job -->
 <section id="postjob">
   <div class="post-job">
-
     <p>Are you an employer?</p>
     <h3>Post a Job</h3>
 
     <button type="button" name="button" class="button1">Click Me!</button>
     <div class="apple-ball">
-
+        <?php echo do_shortcode('[contact-form-7 id="5" title="form-employer"]') ?>
     </div>
-    <?php echo do_shortcode('[contact-form-7 id="5" title="form-employer"]') ?>
-
   </div>
 
 </section>
@@ -100,9 +97,8 @@
 
     <button type="button" name="button" class="button2">Click Me!</button>
     <div class="ball-cat">
-
+      <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
     </div>
-    <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
   </div>
 
 </section>

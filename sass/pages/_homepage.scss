@@ -193,11 +193,15 @@
   }
   .apple-ball{
     width: 100%;
-    height: 0px;
+    display: none;
+  }
+
+  .ball-cat{
+    width: 100%;
+    display: none;
   }
   .is-on{
-    height: 300px;
-    background-color: #748575;
+    display: block;
   }
 
   p{
