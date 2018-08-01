@@ -30,5 +30,3 @@ $(document).ready(function(){
     $(".ball-cat").toggleClass("is-on");
   })
 })
-
-document.getElementByClassName("is-on").style.height=document.getElementById("form-employee").style.height;

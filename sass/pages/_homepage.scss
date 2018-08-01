@@ -29,7 +29,7 @@
           font-size: 60px;
         }
         @media(max-width: 450px){
-          font-size: 45px;
+          font-size: 35px;
         }
       }
     }
@@ -55,6 +55,7 @@
     z-index: -9999;
     .text-mission{
       margin: 0 20vw;
+      padding: 5vw;
       h4 {
         color: black;
         font-size: 2.5rem;
@@ -66,13 +67,13 @@
         display: inline-block;
         height: 0.5em;
         vertical-align: bottom;
-        width: 60%;
+        width: 35vw;
         margin-right: -100%;
         margin-left: 10px;
         border-top: 1px solid black;
       }
       p{
-        padding:0 0 0 100px;
+        padding:0 0 0 5vw;
         font-size: 1.2rem;
         font-family: $font-primary;
         line-height: 2rem;
