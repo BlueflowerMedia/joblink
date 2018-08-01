@@ -173,7 +173,61 @@
       }
     }
   }
+  @media  (max-width: 800px){
+    display: none;
+  }
 }
+
+ // how it works for tablet and mobile
+.howm-container{
+//  display: flex;
+  width: 100vw;
+  height: 450px;
+  background-color: $blue;
+  padding: 15vw  5vw;
+
+  h3{
+    margin: 0 !important;
+    padding: 5vw;
+    font-family: $font-secondary;
+    font-size: 20px;
+    color: $white;
+  }
+  h3:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 30vw;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid white;
+  }
+  .row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    padding:5vw 0;
+    img{
+      width: 20vw;
+    }
+    p{
+      margin: 0 !important;
+      padding-left: 5vw;
+      width: 60vw;
+      font-family: $font-primary;
+      font-style: italic;
+      font-size: 15px;
+      color: $white;
+    }
+
+  }
+  @media  (min-width: 800px){
+    display: none;
+  }
+}
+
 
 
 // post-a-job and register sections

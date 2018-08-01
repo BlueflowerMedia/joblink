@@ -56,18 +56,45 @@
     <div class="how-right">
       <div class="image-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1post.png" alt="" >
-
       </div>
       <div class="image-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/2find.png" alt="" >
-
       </div>
       <div class="image-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/3pay.png" alt="" >
-
       </div>
+    </div>
+  </div>
+</section>
 
-
+<!-- how it works for tablet and mobile -->
+<section id="worksm" >
+  <div class="howm-container">
+      <h3>How we work?</h3>
+    <div class="row1">
+      <div class="image-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/1post.png" alt="" >
+      </div>
+      <div class="image-container">
+        <p>Post a job to tell us about your project.</p>
+      </div>
+    </div>
+    <div class="row1">
+      <div class="image-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/2find.png" alt="" >
+      </div>
+      <div class="image-container">
+        <p>We'll quickly match you with the right freelancers.</p>
+      </div>
+    </div>
+    <div class="row1">
+      <div class="image-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/3pay.png" alt="" >
+      </div>
+      <div class="image-container">
+        <p>We Provide you with the payment information for the
+          employer so both parties are happy.</p>
+      </div>
     </div>
 
   </div>

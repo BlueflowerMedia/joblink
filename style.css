@@ -1348,6 +1348,9 @@ button.nav-contact {
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700; }
+    @media (max-width: 1100px) {
+      .nav-right a {
+        font-size: 16px; } }
 
 #masthead.scrolled {
   background-color: #fff;
@@ -1359,10 +1362,10 @@ button.nav-contact {
   #masthead.scrolled .hamburger .line {
     background-color: #000; }
 
-@media (min-width: 1110px) {
+@media (min-width: 800px) {
   .dropdown, .hamburger {
     display: none; } }
-@media (max-width: 1110px) {
+@media (max-width: 800px) {
   .nav-right {
     display: none; } }
 .dropdown {
@@ -1696,6 +1699,49 @@ footer {
       padding: 20px 0px; }
       .how-it-works .how-container .how-right .image-container img {
         max-width: 60%; }
+@media (max-width: 800px) {
+  .how-it-works {
+    display: none; } }
+
+.howm-container {
+  width: 100vw;
+  height: 450px;
+  background-color: #30A5EE;
+  padding: 15vw  5vw; }
+  .howm-container h3 {
+    margin: 0 !important;
+    padding: 5vw;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #fff; }
+  .howm-container h3:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 30vw;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid white; }
+  .howm-container .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5vw 0; }
+    .howm-container .row1 img {
+      width: 20vw; }
+    .howm-container .row1 p {
+      margin: 0 !important;
+      padding-left: 5vw;
+      width: 60vw;
+      font-family: "Lora", serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #fff; }
+  @media (min-width: 800px) {
+    .howm-container {
+      display: none; } }
 
 .post-job, .register-job {
   text-align: center; }
