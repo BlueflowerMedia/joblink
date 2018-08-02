@@ -1490,6 +1490,9 @@ footer {
       footer .container .footer-left .one-row {
         display: flex;
         margin-top: 40px; }
+        @media (max-width: 425px) {
+          footer .container .footer-left .one-row {
+            display: block; } }
         footer .container .footer-left .one-row .one-half {
           flex: 1; }
         footer .container .footer-left .one-row .first {
@@ -1502,6 +1505,9 @@ footer {
           margin-bottom: 12px;
           outline: none;
           max-width: 17vw; }
+          @media (max-width: 425px) {
+            footer .container .footer-left .one-row input {
+              max-width: 60vw; } }
       footer .container .footer-left textarea {
         padding: .5vw;
         border-color: #30A5EE;
@@ -1520,13 +1526,16 @@ footer {
         font-family: "Lora", serif;
         padding: .5vw;
         outline: none; }
+        @media (max-width: 425px) {
+          footer .container .footer-left .wpcf7-submit {
+            width: 20vw; } }
       @media (max-width: 425px) {
         footer .container .footer-left {
           text-align: -webkit-center; }
           footer .container .footer-left input {
             max-width: 50vw; }
           footer .container .footer-left h3 {
-            font-size: 25px; }
+            font-size: 24px; }
           footer .container .footer-left form {
             max-width: 60vw; }
             footer .container .footer-left form .first {
@@ -1545,11 +1554,12 @@ footer {
         letter-spacing: 1px; }
       @media (max-width: 768px) {
         footer .container .footer-right {
-          padding-left: 10vw; } }
+          padding-left: 14vw; } }
       @media (max-width: 425px) {
         footer .container .footer-right h3 {
+          margin-top: 50px;
           margin-bottom: 30px;
-          font-size: 25px; }
+          font-size: 24px; }
         footer .container .footer-right p {
           font-size: 12px; } }
 
