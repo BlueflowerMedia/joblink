@@ -1,5 +1,5 @@
 .head1{
-  background: url(images/action-adult-advice-1120344.jpg);
+  background: url(images/business-career-confidence-776615.jpg);
   background-size: cover;
   overflow: hidden;
   min-width: 100%;
@@ -111,6 +111,10 @@
         font-size: 3rem;
         margin: 0 !important;
         padding: 100px 200px 30px 200px;
+        @media (max-width: 1200px){
+          padding: 80px 200px 30px 150px;
+
+        }
       }
       h4:after {
         content:"";
@@ -125,7 +129,11 @@
 
       .bullet-text-container{
         display: flex;
+        height: auto;
         margin: 80px 100px 120px 200px;
+        @media (max-width: 1200px){
+          margin: 105px 100px 90px 100px;
+        }
         .circle {
           height: 80px;
           width: 80px;
@@ -173,7 +181,8 @@
         align-items: center;
         padding: 20px 0px;
         img{
-          max-width: 60%;
+          max-width: 200px;
+          width: auto;
         }
       }
     }
@@ -364,4 +373,44 @@ input[type="submit"]:hover {
     border: 2px solid $blue;
   background-color: $blue;
     color: white;
+}
+
+
+// Testimonials
+
+.testimonials-container{
+  display: flex;
+  height:auto;
+  background-color: $grey;
+
+  h3{
+    flex: 1;
+  }
+
+
+  .test{
+    width: 25vw;
+    height: 20vh;
+    background-color: $white;
+    margin: 30px;
+    padding:20px;
+    text-align: center;
+    img{
+
+    }
+
+    .text{
+      font-family: $font-primary;
+
+
+    }
+    .name{
+      font-family: $font-secondary;
+      font-weight: 600;
+    }
+
+    .company{
+      font-family: $font-secondary;
+    }
+  }
 }

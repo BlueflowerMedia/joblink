@@ -5,7 +5,7 @@
   if(scrollvalue>0){
     navbar.addClass("scrolled");
   }
-  
+
 $(window).scroll(function(){
   var scrollvalue = $(window).scrollTop();
   if(scrollvalue>0){
@@ -39,9 +39,11 @@ function closeHamburger(){
 
 $(document).ready(function(){
   $(".button1").click(function(){
-    $(".apple-ball").toggleClass("is-on");
+    $(this).hide();
+    $(".apple-ball").addClass("is-on");
   })
   $(".button2").click(function(){
-    $(".ball-cat").toggleClass("is-on");
+    $(this).hide();
+    $(".ball-cat").addClass("is-on");
   })
 })

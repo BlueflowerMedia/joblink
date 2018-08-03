@@ -22,12 +22,12 @@
 	    </div>
 	    <div class="footer-right flex1">
 				<h3>Contact Info.</h3>
-				<p><strong>Call: </strong>647-999-999</p><br>
-				<p><strong>Email: </strong>info@joblink.com</p><br>
-				<p><strong>Address</strong></p><br>
-				<p>1232 Danforth Ave.</p>
-				<p>Toronto, ON M4C 1L2</p>
-				<p>Canada</p>
+				<p><strong>Call: </strong>01871775547</p><br>
+				<p><strong>Email: </strong>infoatnorthamerica@gmail.com</p><br>
+				<p><strong>Address:</strong></p><br>
+				<p>House #10, Road #06, Block - B,</p>
+				<p> Banasree, Rampura,</p>
+				<p>Dhaka - 1219, Bangladesh</p>
 	    </div>
 		</div>
 </footer>

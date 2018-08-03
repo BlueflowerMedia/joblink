@@ -14,7 +14,10 @@
   <div class="container-mission">
     <div class="text-mission">
     <h4>Our Mission</h4>
-      <p>Our mission is to bring a better future for people by making it easier for employers and employees to connect. We are professional career match makers!</p>
+      <p>Our mission is to bring a better future for people by making it easier for employers and employees to connect. We are professional career match makers!
+        Doctor, Nurse, Engineer, Chartered Accountant, Home Tutor, Driver, Cook, General Labour, A-Z etc.
+        You can apply and register and we will connect you.
+      </p>
     </div>
   </div>
 </section>
@@ -129,5 +132,39 @@
   </div>
 
 </section>
+
+
+<!-- testimonials -->
+<!-- <section id="testimonials">
+  <div class="testimonials-container">
+    <div class="row">
+      <h3>Testimonials</h3>
+    </div>
+
+    <div class="row flex-row ">
+      <div class="test">
+        <img src="" alt="">
+        <p class="text">I used the Job Link Corporate website to find myself a job in IT Support. It was a very smooth experience, they got in touch with me shortly after. I was interviewed by my company and got the job within 1 week!</p>
+        <p class="name">Ryan</p>
+        <p class="company">Toronto</p>
+      </div>
+
+      <div class="test">
+        <img src="" alt="">
+        <p class="text">I was looking for a waitress for my restaurant and we needed one very urgently. I called Job Link Corporate and I found someone very qualified within 3 days!</p>
+        <p class="name">Khokhan</p>
+        <p class="company">Khokhan Corporate</p>
+      </div>
+
+      <div class="test">
+        <img src="" alt="">
+        <p class="text">I needed a second job to pay my bills. I used this website as my last source of hope, hoping to find a job right away. I was very delighted when I found a stable second job in demolition with Job link Corporate.</p>
+        <p class="name">Raj</p>
+        <p class="company">India</p>
+      </div>
+    </div>
+  </div>
+
+</section> -->
 
 <?php get_footer(); ?>

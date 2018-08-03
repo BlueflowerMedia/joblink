@@ -22,9 +22,10 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+		
     <!-- navbar left -->
 		<div class="nav-left">
-			<a href="/joblink">JOB LINK</a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Joblink logo"></a>
     </div>
 
     <!-- navbar right -->

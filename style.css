@@ -1326,7 +1326,7 @@ button.nav-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto 50px; }
+  width: 180px; }
   .nav-left a {
     color: #fff;
     font-size: 30px;
@@ -1507,7 +1507,7 @@ footer {
           padding: .5vw;
           margin-bottom: 12px;
           outline: none;
-          max-width: 17vw; }
+          max-width: 16vw; }
           @media (max-width: 425px) {
             footer .container .footer-left .one-row input {
               max-width: 71vw; } }
@@ -1566,7 +1566,7 @@ footer {
           font-size: 12px; } }
 
 .head1 {
-  background: url(images/action-adult-advice-1120344.jpg);
+  background: url(images/business-career-confidence-776615.jpg);
   background-size: cover;
   overflow: hidden;
   min-width: 100%;
@@ -1661,6 +1661,9 @@ footer {
       font-size: 3rem;
       margin: 0 !important;
       padding: 100px 200px 30px 200px; }
+      @media (max-width: 1200px) {
+        .how-it-works .how-container .how-left h4 {
+          padding: 80px 200px 30px 150px; } }
     .how-it-works .how-container .how-left h4:after {
       content: "";
       display: inline-block;
@@ -1672,7 +1675,11 @@ footer {
       border-top: 1px solid white; }
     .how-it-works .how-container .how-left .bullet-text-container {
       display: flex;
+      height: auto;
       margin: 80px 100px 120px 200px; }
+      @media (max-width: 1200px) {
+        .how-it-works .how-container .how-left .bullet-text-container {
+          margin: 105px 100px 90px 100px; } }
       .how-it-works .how-container .how-left .bullet-text-container .circle {
         height: 80px;
         width: 80px;
@@ -1714,7 +1721,8 @@ footer {
       align-items: center;
       padding: 20px 0px; }
       .how-it-works .how-container .how-right .image-container img {
-        max-width: 60%; }
+        max-width: 200px;
+        width: auto; }
 @media (max-width: 800px) {
   .how-it-works {
     display: none; } }
@@ -1869,3 +1877,24 @@ input[type="submit"]:hover {
   border: 2px solid #30A5EE;
   background-color: #30A5EE;
   color: white; }
+
+.testimonials-container {
+  display: flex;
+  height: auto;
+  background-color: #DDDDDD; }
+  .testimonials-container h3 {
+    flex: 1; }
+  .testimonials-container .test {
+    width: 25vw;
+    height: 20vh;
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+    text-align: center; }
+    .testimonials-container .test .text {
+      font-family: "Lora", serif; }
+    .testimonials-container .test .name {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600; }
+    .testimonials-container .test .company {
+      font-family: "Open Sans", sans-serif; }
