@@ -46,6 +46,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-bottom: -25%;
+  @media (max-width: 425px){
+    margin-bottom: -40%;
+  }
 
 	.container-mission{
     background-image: url("./images/Asset 1.svg");
@@ -183,9 +187,11 @@
 .howm-container{
 //  display: flex;
   width: 100vw;
-  height: 450px;
+  height: auto;
   background-color: $blue;
   padding: 15vw  5vw;
+
+
 
   h3{
     margin: 0 !important;

@@ -25,16 +25,15 @@
     <!-- navbar left -->
 		<div class="nav-left">
 			<a href="/joblink">JOB LINK</a>
-
     </div>
 
     <!-- navbar right -->
     <div class="nav-right">
-		<a href="#mission">Our Mission</a>
-		<a href="#works">How it works</a>
-		<a href="#postjob">Post a Job</a>
-		<a href="#register">Find a Job</a>
-		<a href="#colophon">Contact</a>
+			<a href="#mission">Our Mission</a>
+			<a href="#works">How it works</a>
+			<a href="#postjob">Post a Job</a>
+			<a href="#register">Find a Job</a>
+			<a href="#colophon">Contact</a>
     </div>
 
 		<!-- hamburger -->
@@ -55,7 +54,6 @@
 				<li><a href="#colophon" onclick="closeHamburger()">Contact</a></li>
 			</ul>
 		</div>
-		</nav>
 	</header>
 </div>
 </body>

@@ -1606,7 +1606,11 @@ footer {
 .our-mission {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin-bottom: -25%; }
+  @media (max-width: 425px) {
+    .our-mission {
+      margin-bottom: -40%; } }
   .our-mission .container-mission {
     background-image: url("./images/Asset 1.svg");
     background-size: cover;
@@ -1717,7 +1721,7 @@ footer {
 
 .howm-container {
   width: 100vw;
-  height: 450px;
+  height: auto;
   background-color: #30A5EE;
   padding: 15vw  5vw; }
   .howm-container h3 {

@@ -1,14 +1,11 @@
 // navbar color change on scroll
 
   var navbar = $("#masthead");
-
   var scrollvalue = $(window).scrollTop();
-
-    if(scrollvalue>0){
+  if(scrollvalue>0){
     navbar.addClass("scrolled");
   }
-
-
+  
 $(window).scroll(function(){
   var scrollvalue = $(window).scrollTop();
   if(scrollvalue>0){
@@ -44,9 +41,6 @@ $(document).ready(function(){
   $(".button1").click(function(){
     $(".apple-ball").toggleClass("is-on");
   })
-})
-
-$(document).ready(function(){
   $(".button2").click(function(){
     $(".ball-cat").toggleClass("is-on");
   })
