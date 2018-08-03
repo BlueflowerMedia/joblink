@@ -1378,7 +1378,7 @@ button.nav-contact {
   transition: transform 0.3s linear;
   text-align: center;
   background-color: #fff;
-  opacity: .99;
+  opacity: .95;
   z-index: 9999; }
   .dropdown ul {
     list-style-type: none;
@@ -1497,8 +1497,11 @@ footer {
           flex: 1; }
         footer .container .footer-left .one-row .first {
           margin-right: 20px; }
+          @media (max-width: 425px) {
+            footer .container .footer-left .one-row .first {
+              margin-right: 0px; } }
         footer .container .footer-left .one-row input {
-          border-color: #44C5E6;
+          border-color: #30A5EE;
           border-radius: 2.5vw;
           border-width: .15vw;
           padding: .5vw;
@@ -1507,7 +1510,7 @@ footer {
           max-width: 17vw; }
           @media (max-width: 425px) {
             footer .container .footer-left .one-row input {
-              max-width: 60vw; } }
+              max-width: 71vw; } }
       footer .container .footer-left textarea {
         padding: .5vw;
         border-color: #30A5EE;
@@ -1528,7 +1531,8 @@ footer {
         outline: none; }
         @media (max-width: 425px) {
           footer .container .footer-left .wpcf7-submit {
-            width: 20vw; } }
+            width: 20vw;
+            padding: 1.5vw; } }
       @media (max-width: 425px) {
         footer .container .footer-left {
           text-align: -webkit-center; }
@@ -1537,9 +1541,7 @@ footer {
           footer .container .footer-left h3 {
             font-size: 24px; }
           footer .container .footer-left form {
-            max-width: 60vw; }
-            footer .container .footer-left form .first {
-              margin-right: 10px; } }
+            max-width: 71vw; } }
     footer .container .footer-right {
       padding-left: 20vw;
       justify-content: flex-end; }
@@ -1765,13 +1767,27 @@ footer {
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
   .post-job .apple-ball, .register-job .apple-ball {
-    width: 100%;
     display: none; }
   .post-job .ball-cat, .register-job .ball-cat {
-    width: 100%;
     display: none; }
   .post-job .is-on, .register-job .is-on {
-    display: block; }
+    display: block;
+    -webkit-animation: slide-down .6s ease-out;
+    -moz-animation: slide-down .6s ease-out; }
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@-moz-keyframes slide-down {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0); } }
   .post-job p, .register-job p {
     color: #30A5EE;
     font-family: "Lora", serif;

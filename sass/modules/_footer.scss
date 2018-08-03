@@ -27,10 +27,13 @@ footer{
        }
        .first{
          margin-right: 20px;
+         @media(max-width: 425px){
+           margin-right: 0px;
+         }
        }
 
        input{
-       border-color: #44C5E6;
+       border-color: $blue;
        border-radius: 2.5vw;
        border-width: .15vw;
        padding: .5vw;
@@ -38,13 +41,13 @@ footer{
        outline: none;
        max-width: 17vw;
        @media (max-width: 425px){
-         max-width: 60vw;
+         max-width: 71vw;
        }
        }
      }
      textarea{
        padding: .5vw;
-       border-color: #30A5EE;
+       border-color: $blue;
        border-radius: 1.5vw;
        border-width: .15vw;
        width: 100%;
@@ -52,7 +55,7 @@ footer{
        height: 20vh;
      }
      .wpcf7-submit {
-       background-color: #30A5EE;
+       background-color: $blue;
        color: #000;
        font-size: 1.5rem;
        border: none;
@@ -63,6 +66,7 @@ footer{
        outline: none;
        @media (max-width: 425px){
          width:20vw;
+         padding: 1.5vw;
        }
      }
      @media (max-width: 425px){
@@ -74,10 +78,7 @@ footer{
              font-size: 24px;
            }
            form{
-             max-width: 60vw;
-             .first{
-               margin-right: 10px;
-             }
+             max-width: 71vw;
            }
      }
   }
@@ -110,5 +111,5 @@ footer{
         }
       }
     }
-    }
   }
+}
