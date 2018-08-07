@@ -15,7 +15,7 @@
       <p>Our mission is to bring a better future for people by making it easier for employers and employees to connect. We are professional career match makers!
         You can apply and register and we will connect you.
       </p>
-      <!-- <ul>
+      <ul>
         <li>Doctor</li>
           <li>Nurse</li>
           <li>Engineer</li>
@@ -24,7 +24,7 @@
           <li>Cook</li>
           <li>General Labour</li>
           <li>A-Z</li>
-      </ul> -->
+      </ul>
     </div>
   </div>
 </section>
@@ -113,9 +113,19 @@
 
 <!-- post a job -->
 <section id="postjob">
+
   <div class="post-job">
     <p>Are you an employer?</p>
     <h3>Post a Job</h3>
+
+    <div class="row3">
+      <div class="postjob-text">
+        <p>Praesent lacinia ultrices lorem non venenatis. Sed finibus consectetur leo ut egestas. Vivamus vitae nisl sit amet est dictum sagittis ac non metus. Donec ultrices placerat lacus non pellentesque. Curabitur ut efficitur lacus. Vivamus nec sapien congue purus mattis sagittis. Ut id urna sapien. Nam quis lobortis mauris. Aliquam iaculis mollis tortor vitae efficitur. Praesent feugiat est eget rutrum sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+      <div class="postjob-image">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
+      </div>
+    </div>
 
     <button type="button" name="button" class="button1">Click Here!</button>
     <div class="apple-ball">
@@ -128,9 +138,22 @@
 
 <!-- register -->
 <section id="register" >
+  <div class="row">
+
+  </div>
   <div class="register-job">
     <p>Looking for a job?</p>
     <h3>Register</h3>
+
+    <div class="row3">
+
+      <div class="postjob-image">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
+      </div>
+      <div class="postjob-text">
+        <p>Praesent lacinia ultrices lorem non venenatis. Sed finibus consectetur leo ut egestas. Vivamus vitae nisl sit amet est dictum sagittis ac non metus. Donec ultrices placerat lacus non pellentesque. Curabitur ut efficitur lacus. Vivamus nec sapien congue purus mattis sagittis. Ut id urna sapien. Nam quis lobortis mauris. Aliquam iaculis mollis tortor vitae efficitur. Praesent feugiat est eget rutrum sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+    </div>
 
     <button type="button" name="button" class="button2">Click Here!</button>
     <div class="ball-cat">

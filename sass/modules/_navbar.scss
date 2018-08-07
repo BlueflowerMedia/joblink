@@ -11,9 +11,14 @@
 }
 .nav-left{
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 	width: 180px;
+	@media (max-width: 800px){
+			flex: 5;
+	}
+
+
 	a{
 		color: #fff;
 		font-size: 30px;
@@ -21,6 +26,9 @@
 		font-family: $font-secondary;
 		font-weight: 700;
 		text-decoration: none;
+		img{
+			height: 80px;
+		}
 	}
 }
 .nav-right{
@@ -146,7 +154,7 @@ transform: scale(1.1);
 
 .hamburger{
   z-index: 999;
-  padding: 20px 0;
+  padding: 20px;
 	flex: 1;
 	justify-content: flex-end;
 }

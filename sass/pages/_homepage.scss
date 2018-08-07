@@ -1,6 +1,8 @@
 .head1{
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
   background-size: cover;
+  //transform: translateY(0%);
+
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
@@ -246,6 +248,29 @@
 .post-job,.register-job{
   text-align: center;
 
+  .row3{
+    @media (min-width: 800px){
+          display: flex;
+    }
+
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:5vw;
+
+    .postjob-text,
+    .postjob-image{
+      p{
+        text-align: justify;
+        margin: 30px 0;
+        font-family: $font-secondary;
+        color: $black;
+      }
+      flex-basis: 45%;
+    }
+  }
+
   .button1, .button2{
     font-size: 15px;
     border-radius: 50px;
@@ -289,7 +314,7 @@
   h3{
     color: $black;
     text-align:center;
-    margin-bottom: 10vh;
+    // margin-bottom: 10vh;
   }
   h3::after,h3::before {
      display: inline-block;
@@ -376,7 +401,7 @@ input[type="submit"]:hover {
 .testimonials-container{
   text-align: center;
   background-color: $grey;
-  padding:50px;
+  padding:5vw;
   margin-top: 100px;
 
 .row2{
@@ -386,7 +411,8 @@ input[type="submit"]:hover {
   }
 
   justify-content: space-between;
-
+  margin: 0 auto;
+  max-width: 1400px;
 
   h3{
     flex: 1;
@@ -420,17 +446,32 @@ input[type="submit"]:hover {
     }
 
     .text{
-      font-family: $font-primary;
+      font-family: $font-secondary;
+      text-align: justify;
+      font-size: 16px;
+      @media (max-width: 800px){
+        font-size: 12px;
+      }
 
 
     }
     .name{
       font-family: $font-secondary;
       font-weight: 600;
+      font-size: 18px;
+      @media (max-width: 800px){
+        font-size: 14px;
+      }
+
     }
 
     .company{
       font-family: $font-secondary;
+      font-size: 16px;
+      @media (max-width: 800px){
+        font-size: 12px;
+      }
+
     }
   }
 }
