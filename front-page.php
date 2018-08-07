@@ -15,16 +15,21 @@
       <p>Our mission is to bring a better future for people by making it easier for employers and employees to connect. We are professional career match makers!
         You can apply and register and we will connect you.
       </p>
-      <ul>
-        <li>Doctor</li>
-          <li>Nurse</li>
-          <li>Engineer</li>
-          <li>Chartered Accountant</li>
+
+      <div class="row4">
+        <ul>
+          <li>Doctor</li>
+            <li>Nurse</li>
+            <li>Engineer</li>
+            <li>Chartered Accountant</li>
+        </ul>
+        <ul>
           <li>Driver</li>
           <li>Cook</li>
           <li>General Labour</li>
           <li>A-Z</li>
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
 </section>

@@ -1490,7 +1490,7 @@ button.nav-contact {
 footer {
   background-color: #000; }
   footer .container {
-    padding: 50px 5%;
+    padding: 50px 8%;
     margin: 0 auto;
     max-width: 1500px; }
     footer .container .footer-left {
@@ -1569,7 +1569,7 @@ footer {
         letter-spacing: 1px; }
       @media (max-width: 768px) {
         footer .container .footer-right {
-          padding-left: 14vw; } }
+          padding-left: 10vw; } }
       @media (max-width: 425px) {
         footer .container .footer-right h3 {
           margin-top: 50px;
@@ -1581,6 +1581,7 @@ footer {
 .head1 {
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
   background-size: cover;
+  transform: translateY(0%);
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
@@ -1623,6 +1624,9 @@ footer {
     transform: translateY(-50%);
     padding: 50vh 0 15vh 0;
     z-index: -9999; }
+    @media (max-width: 400px) {
+      .our-mission .container-mission {
+        transform: translateY(-45%); } }
     .our-mission .container-mission .text-mission {
       margin: 0 20vw;
       padding: 5vw 5vw 0 5vw; }
@@ -1640,6 +1644,14 @@ footer {
         margin-right: -100%;
         margin-left: 10px;
         border-top: 1px solid black; }
+      .our-mission .container-mission .text-mission .row4 {
+        display: flex;
+        justify-content: space-around; }
+        .our-mission .container-mission .text-mission .row4 ul {
+          list-style-type: none;
+          font-family: "Lora", serif;
+          font-size: 1.2rem;
+          margin: 0 !important; }
       .our-mission .container-mission .text-mission p {
         padding: 0 0 0 5vw;
         font-size: 1.2rem;
@@ -1793,7 +1805,7 @@ footer {
       .register-job .row3 .postjob-image p {
         text-align: justify;
         margin: 30px 0;
-        font-family: "Open Sans", sans-serif;
+        font-family: "Lora", serif;
         color: #2a2a2a; }
   .post-job .button1, .post-job .button2, .register-job .button1, .register-job .button2 {
     font-size: 15px;
