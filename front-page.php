@@ -2,10 +2,8 @@
 
 <!-- BANNER  -->
 <div id="banner" class="head1 bottom-right">
-  <div class="layer">
-    <div class="container-banner">
-        <h1>Find the Right Person for Any Work</h1>
-    </div>
+  <div class="container-banner">
+      <h1>Find the Right Person for Any Work</h1>
   </div>
 </div>
 
@@ -15,9 +13,18 @@
     <div class="text-mission">
     <h4>Our Mission</h4>
       <p>Our mission is to bring a better future for people by making it easier for employers and employees to connect. We are professional career match makers!
-        Doctor, Nurse, Engineer, Chartered Accountant, Home Tutor, Driver, Cook, General Labour, A-Z etc.
         You can apply and register and we will connect you.
       </p>
+      <!-- <ul>
+        <li>Doctor</li>
+          <li>Nurse</li>
+          <li>Engineer</li>
+          <li>Chartered Accountant</li>
+          <li>Driver</li>
+          <li>Cook</li>
+          <li>General Labour</li>
+          <li>A-Z</li>
+      </ul> -->
     </div>
   </div>
 </section>
@@ -110,7 +117,7 @@
     <p>Are you an employer?</p>
     <h3>Post a Job</h3>
 
-    <button type="button" name="button" class="button1">Click Me!</button>
+    <button type="button" name="button" class="button1">Click Here!</button>
     <div class="apple-ball">
         <?php echo do_shortcode('[contact-form-7 id="5" title="form-employer"]') ?>
     </div>
@@ -125,7 +132,7 @@
     <p>Looking for a job?</p>
     <h3>Register</h3>
 
-    <button type="button" name="button" class="button2">Click Me!</button>
+    <button type="button" name="button" class="button2">Click Here!</button>
     <div class="ball-cat">
       <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
     </div>
@@ -135,29 +142,29 @@
 
 
 <!-- testimonials -->
-<!-- <section id="testimonials">
+<section id="testimonials">
   <div class="testimonials-container">
-    <div class="row">
+    <div class="row2">
       <h3>Testimonials</h3>
     </div>
 
-    <div class="row flex-row ">
+    <div class="row2">
       <div class="test">
-        <img src="" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
         <p class="text">I used the Job Link Corporate website to find myself a job in IT Support. It was a very smooth experience, they got in touch with me shortly after. I was interviewed by my company and got the job within 1 week!</p>
         <p class="name">Ryan</p>
         <p class="company">Toronto</p>
       </div>
 
       <div class="test">
-        <img src="" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/khokhan.jpg" alt="">
         <p class="text">I was looking for a waitress for my restaurant and we needed one very urgently. I called Job Link Corporate and I found someone very qualified within 3 days!</p>
         <p class="name">Khokhan</p>
         <p class="company">Khokhan Corporate</p>
       </div>
 
       <div class="test">
-        <img src="" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/raj.jpg" alt="">
         <p class="text">I needed a second job to pay my bills. I used this website as my last source of hope, hoping to find a job right away. I was very delighted when I found a stable second job in demolition with Job link Corporate.</p>
         <p class="name">Raj</p>
         <p class="company">India</p>
@@ -165,6 +172,6 @@
     </div>
   </div>
 
-</section> -->
+</section>
 
 <?php get_footer(); ?>

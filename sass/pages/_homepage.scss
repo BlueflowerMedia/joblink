@@ -1,36 +1,29 @@
 .head1{
-  background: url(images/business-career-confidence-776615.jpg);
+  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
   background-size: cover;
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
   background-position: center;
   height: 80vh;
-  .layer{
-    background-color: rgba(10, 10, 20, 0.4);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    height: 80vh;
-    .container-banner{
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 50%;
-      height: 900px;
-      justify-content: center;
-      text-align: center;
-      margin: 0 auto;
-      h1{
-        font-size: 80px;
-        margin: 30vh 0 0 0 !important;
-        @media(max-width: 1110px){
-          font-size: 60px;
-        }
-        @media(max-width: 450px){
-          font-size: 35px;
-        }
+  display: flex;
+  .container-banner{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    h1{
+      font-size: 80px;
+      // justify-content: center;
+      @media(max-width: 1110px){
+        font-size: 60px;
+        padding: 20px;
+      }
+      @media(max-width: 450px){
+        font-size: 35px;
+        padding: 15px;
       }
     }
   }
@@ -57,9 +50,10 @@
     transform: translateY(-50%);
     padding: 50vh 0 15vh 0;
     z-index: -9999;
+
     .text-mission{
       margin: 0 20vw;
-      padding: 5vw;
+      padding: 5vw 5vw 0 5vw;
       h4 {
         color: black;
         font-size: 2.5rem;
@@ -290,6 +284,7 @@
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 5vh;
+    font-size: 1.5rem;
   }
   h3{
     color: $black;
@@ -379,24 +374,49 @@ input[type="submit"]:hover {
 // Testimonials
 
 .testimonials-container{
-  display: flex;
-  height:auto;
+  text-align: center;
   background-color: $grey;
+  padding:50px;
+  margin-top: 100px;
+
+.row2{
+
+  @media (min-width: 800px){
+      display: flex;
+  }
+
+  justify-content: space-between;
+
 
   h3{
     flex: 1;
+    margin: 30px 0px;
+    color: $black !important;
   }
 
-
+  h3::after,h3::before {
+     display: inline-block;
+     content: "";
+     border-top: 2px solid black;
+     width: 21%;
+     margin: 0 1rem;
+     transform: translateY(-1rem);
+     vertical-align: bottom;
+  }
   .test{
-    width: 25vw;
-    height: 20vh;
+    flex-basis: 30%;
+    height: auto;
     background-color: $white;
-    margin: 30px;
-    padding:20px;
+    padding:40px;
     text-align: center;
-    img{
+    margin: 40px auto;
+    border-radius: 40px;
 
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
     }
 
     .text{
@@ -413,4 +433,6 @@ input[type="submit"]:hover {
       font-family: $font-secondary;
     }
   }
+}
+
 }

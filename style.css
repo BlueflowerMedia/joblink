@@ -1347,10 +1347,17 @@ button.nav-contact {
     color: #fff;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700; }
+    font-weight: 700;
+    transition: transform .2s; }
     @media (max-width: 1100px) {
       .nav-right a {
         font-size: 16px; } }
+  .nav-right a:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1); }
 
 #masthead.scrolled {
   background-color: #fff;
@@ -1475,129 +1482,120 @@ button.nav-contact {
   transform: translateY(-9px) rotate(90deg);
   background-color: #2a2a2a; }
 
-footer {
-  margin-top: 50px; }
-  footer .container {
-    background-color: #000;
-    padding: 50px 10%; }
-    footer .container .footer-left {
-      align-items: center; }
-      footer .container .footer-left h3 {
-        font-size: 30px; }
-      footer .container .footer-left form {
-        text-align: center;
-        max-width: 35vw; }
-      footer .container .footer-left .one-row {
-        display: flex;
-        margin-top: 40px; }
+footer .container {
+  background-color: #000;
+  padding: 50px 10%; }
+  footer .container .footer-left {
+    align-items: center; }
+    footer .container .footer-left h3 {
+      font-size: 30px; }
+    footer .container .footer-left form {
+      text-align: center;
+      max-width: 35vw; }
+    footer .container .footer-left .one-row {
+      display: flex;
+      margin-top: 40px; }
+      @media (max-width: 425px) {
+        footer .container .footer-left .one-row {
+          display: block; } }
+      footer .container .footer-left .one-row .one-half {
+        flex: 1; }
+      footer .container .footer-left .one-row .first {
+        margin-right: 20px; }
         @media (max-width: 425px) {
-          footer .container .footer-left .one-row {
-            display: block; } }
-        footer .container .footer-left .one-row .one-half {
-          flex: 1; }
-        footer .container .footer-left .one-row .first {
-          margin-right: 20px; }
-          @media (max-width: 425px) {
-            footer .container .footer-left .one-row .first {
-              margin-right: 0px; } }
-        footer .container .footer-left .one-row input {
-          border-color: #30A5EE;
-          border-radius: 2.5vw;
-          border-width: .15vw;
-          padding: .5vw;
-          margin-bottom: 12px;
-          outline: none;
-          max-width: 16vw; }
-          @media (max-width: 425px) {
-            footer .container .footer-left .one-row input {
-              max-width: 71vw; } }
-      footer .container .footer-left textarea {
-        padding: .5vw;
+          footer .container .footer-left .one-row .first {
+            margin-right: 0px; } }
+      footer .container .footer-left .one-row input {
         border-color: #30A5EE;
-        border-radius: 1.5vw;
+        border-radius: 2.5vw;
         border-width: .15vw;
-        width: 100%;
-        outline: none;
-        height: 20vh; }
-      footer .container .footer-left .wpcf7-submit {
-        background-color: #30A5EE;
-        color: #000;
-        font-size: 1.5rem;
-        border: none;
-        border-radius: 40px;
-        width: 8vw;
-        font-family: "Lora", serif;
         padding: .5vw;
-        outline: none; }
+        margin-bottom: 12px;
+        outline: none;
+        max-width: 16vw; }
         @media (max-width: 425px) {
-          footer .container .footer-left .wpcf7-submit {
-            width: 20vw;
-            padding: 1.5vw; } }
-      @media (max-width: 425px) {
-        footer .container .footer-left {
-          text-align: -webkit-center; }
-          footer .container .footer-left input {
-            max-width: 50vw; }
-          footer .container .footer-left h3 {
-            font-size: 24px; }
-          footer .container .footer-left form {
+          footer .container .footer-left .one-row input {
             max-width: 71vw; } }
-    footer .container .footer-right {
-      padding-left: 20vw;
-      justify-content: flex-end; }
-      footer .container .footer-right h3 {
-        margin-bottom: 60px;
-        font-size: 30px; }
-      footer .container .footer-right p {
-        font-size: 18px;
-        color: #fff;
-        font-family: "Lora", serif;
-        margin: 0 !important;
-        letter-spacing: 1px; }
-      @media (max-width: 768px) {
-        footer .container .footer-right {
-          padding-left: 14vw; } }
+    footer .container .footer-left textarea {
+      padding: .5vw;
+      border-color: #30A5EE;
+      border-radius: 1.5vw;
+      border-width: .15vw;
+      width: 100%;
+      outline: none;
+      height: 20vh; }
+    footer .container .footer-left .wpcf7-submit {
+      background-color: #30A5EE;
+      color: #000;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 40px;
+      width: 8vw;
+      font-family: "Lora", serif;
+      padding: .5vw;
+      outline: none; }
       @media (max-width: 425px) {
-        footer .container .footer-right h3 {
-          margin-top: 50px;
-          margin-bottom: 30px;
+        footer .container .footer-left .wpcf7-submit {
+          width: 20vw;
+          padding: 1.5vw; } }
+    @media (max-width: 425px) {
+      footer .container .footer-left {
+        text-align: -webkit-center; }
+        footer .container .footer-left input {
+          max-width: 50vw; }
+        footer .container .footer-left h3 {
           font-size: 24px; }
-        footer .container .footer-right p {
-          font-size: 12px; } }
+        footer .container .footer-left form {
+          max-width: 71vw; } }
+  footer .container .footer-right {
+    padding-left: 20vw;
+    justify-content: flex-end; }
+    footer .container .footer-right h3 {
+      margin-bottom: 60px;
+      font-size: 30px; }
+    footer .container .footer-right p {
+      font-size: 18px;
+      color: #fff;
+      font-family: "Lora", serif;
+      margin: 0 !important;
+      letter-spacing: 1px; }
+    @media (max-width: 768px) {
+      footer .container .footer-right {
+        padding-left: 14vw; } }
+    @media (max-width: 425px) {
+      footer .container .footer-right h3 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 24px; }
+      footer .container .footer-right p {
+        font-size: 12px; } }
 
 .head1 {
-  background: url(images/business-career-confidence-776615.jpg);
+  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
   background-size: cover;
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
   background-position: center;
-  height: 80vh; }
-  .head1 .layer {
-    background-color: rgba(10, 10, 20, 0.4);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    height: 80vh; }
-    .head1 .layer .container-banner {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 50%;
-      height: 900px;
-      justify-content: center;
-      text-align: center;
-      margin: 0 auto; }
-      .head1 .layer .container-banner h1 {
-        font-size: 80px;
-        margin: 30vh 0 0 0 !important; }
-        @media (max-width: 1110px) {
-          .head1 .layer .container-banner h1 {
-            font-size: 60px; } }
-        @media (max-width: 450px) {
-          .head1 .layer .container-banner h1 {
-            font-size: 35px; } }
+  height: 80vh;
+  display: flex; }
+  .head1 .container-banner {
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center; }
+    .head1 .container-banner h1 {
+      font-size: 80px; }
+      @media (max-width: 1110px) {
+        .head1 .container-banner h1 {
+          font-size: 60px;
+          padding: 20px; } }
+      @media (max-width: 450px) {
+        .head1 .container-banner h1 {
+          font-size: 35px;
+          padding: 15px; } }
 
 .bottom-right {
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
@@ -1619,7 +1617,7 @@ footer {
     z-index: -9999; }
     .our-mission .container-mission .text-mission {
       margin: 0 20vw;
-      padding: 5vw; }
+      padding: 5vw 5vw 0 5vw; }
       .our-mission .container-mission .text-mission h4 {
         color: black;
         font-size: 2.5rem;
@@ -1805,7 +1803,8 @@ footer {
     font-family: "Lora", serif;
     text-align: center;
     margin-top: 10vh;
-    margin-bottom: 5vh; }
+    margin-bottom: 5vh;
+    font-size: 1.5rem; }
   .post-job h3, .register-job h3 {
     color: #2a2a2a;
     text-align: center;
@@ -1879,22 +1878,44 @@ input[type="submit"]:hover {
   color: white; }
 
 .testimonials-container {
-  display: flex;
-  height: auto;
-  background-color: #DDDDDD; }
-  .testimonials-container h3 {
-    flex: 1; }
-  .testimonials-container .test {
-    width: 25vw;
-    height: 20vh;
-    background-color: #fff;
-    margin: 30px;
-    padding: 20px;
-    text-align: center; }
-    .testimonials-container .test .text {
-      font-family: "Lora", serif; }
-    .testimonials-container .test .name {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600; }
-    .testimonials-container .test .company {
-      font-family: "Open Sans", sans-serif; }
+  text-align: center;
+  background-color: #DDDDDD;
+  padding: 50px;
+  margin-top: 100px; }
+  .testimonials-container .row2 {
+    justify-content: space-between; }
+    @media (min-width: 800px) {
+      .testimonials-container .row2 {
+        display: flex; } }
+    .testimonials-container .row2 h3 {
+      flex: 1;
+      margin: 30px 0px;
+      color: #2a2a2a !important; }
+    .testimonials-container .row2 h3::after, .testimonials-container .row2 h3::before {
+      display: inline-block;
+      content: "";
+      border-top: 2px solid black;
+      width: 21%;
+      margin: 0 1rem;
+      transform: translateY(-1rem);
+      vertical-align: bottom; }
+    .testimonials-container .row2 .test {
+      flex-basis: 30%;
+      height: auto;
+      background-color: #fff;
+      padding: 40px;
+      text-align: center;
+      margin: 40px auto;
+      border-radius: 40px; }
+      .testimonials-container .row2 .test img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover; }
+      .testimonials-container .row2 .test .text {
+        font-family: "Lora", serif; }
+      .testimonials-container .row2 .test .name {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600; }
+      .testimonials-container .row2 .test .company {
+        font-family: "Open Sans", sans-serif; }
