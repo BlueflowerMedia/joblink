@@ -1531,7 +1531,7 @@ footer {
         border-width: .15vw;
         width: 100%;
         outline: none;
-        height: 20vh; }
+        height: 24vh; }
       footer .container .footer-left .wpcf7-submit {
         background-color: #30A5EE;
         color: #000;
@@ -1676,7 +1676,8 @@ footer {
     border-top-right-radius: 110px; }
     .how-it-works .how-container .how-left h4 {
       color: white;
-      font-size: 3rem;
+      font-size: 2.5rem;
+      font-family: "Open Sans", sans-serif;
       margin: 0 !important;
       padding: 100px 200px 30px 200px; }
       @media (max-width: 1200px) {
@@ -1711,7 +1712,7 @@ footer {
           align-items: center;
           justify-content: center;
           color: black;
-          font-size: 30px;
+          font-size: 1.5rem;
           margin: 0 !important;
           font-family: "Lora", serif; }
       .how-it-works .how-container .how-left .bullet-text-container .rectangle {
@@ -1724,7 +1725,7 @@ footer {
         display: flex; }
         .how-it-works .how-container .how-left .bullet-text-container .rectangle p {
           color: #fff;
-          font-size: 27px;
+          font-size: 1.2rem;
           margin: 0 !important;
           font-family: "Lora", serif;
           font-style: italic;
@@ -1754,7 +1755,7 @@ footer {
     margin: 0 !important;
     padding: 5vw;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 2.5rem;
     color: #fff; }
   .howm-container h3:after {
     content: "";
@@ -1787,6 +1788,8 @@ footer {
 
 .post-job, .register-job {
   text-align: center; }
+  .post-job h3, .register-job h3 {
+    font-size: 2.5rem; }
   .post-job .row3, .register-job .row3 {
     justify-content: space-between;
     align-items: center;
@@ -1882,12 +1885,10 @@ footer {
       .form-row label.file input {
         padding: 0; }
     .form-row label input, .form-row label textarea {
-      border-radius: 40px;
       width: 100%;
       border: 2px, solid #DDDDDD;
       padding: 10px 15px; }
     .form-row label textarea {
-      border-radius: 20px;
       padding: 15px; }
 
 input[type="file"]:focus {
@@ -1897,7 +1898,9 @@ input[type="file"]:focus {
 
 input:focus, textarea:focus {
   outline: none;
-  border: 2px solid #30A5EE;
+  border: 2px solid;
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+  border-image-slice: 1;
   box-sizing: border-box;
   box-shadow: 0px 0px 40px -10px #DDDDDD; }
 
@@ -1931,7 +1934,8 @@ input[type="submit"]:hover {
     .testimonials-container .row2 h3 {
       flex: 1;
       margin: 30px 0px;
-      color: #2a2a2a !important; }
+      color: #2a2a2a !important;
+      font-size: 2.5rem; }
     .testimonials-container .row2 h3::after, .testimonials-container .row2 h3::before {
       display: inline-block;
       content: "";

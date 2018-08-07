@@ -28,6 +28,11 @@
 				<p>House #10, Road #06, Block - B,</p>
 				<p> Banasree, Rampura,</p>
 				<p>Dhaka - 1219, Bangladesh</p>
+				<p><strong>Payment Info.</strong></p><br>
+				<p>A/C No. 14024 38 68 5001</p>
+				<p>The City Bank Ltd., Banani Branch</p>
+				<p>Dhaka, Bangladesh</p>
+
 	    </div>
 		</div>
 </footer>
