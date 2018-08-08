@@ -302,7 +302,7 @@
   }
 
   .button1:hover,.button2:hover{
-    background: linear-gradient(24deg, #3498db, #1abc9c);
+    background: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
     color: $white;
   }
   .apple-ball{
@@ -400,7 +400,7 @@ input[type="file"]:focus {
 input:focus, textarea:focus {
   outline: none;
   border: 2px solid;
-  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
    border-image-slice: 1;
    // border-radius: 40px;
   box-sizing: border-box;
@@ -418,9 +418,9 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     // border: 2px solid $blue;
-  background:linear-gradient(24deg, #3498db, #1abc9c);
+  background:linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
     color: white;
-    border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+    border-image-source: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
      border-image-slice: 1;
 }
 
@@ -429,7 +429,7 @@ input[type="submit"]:hover {
 
 .testimonials-container{
   text-align: center;
-  background-color: $grey;
+  background:linear-gradient(24deg, #3498db, #1abc9c);
   padding:5vw;
   margin-top: 100px;
 
@@ -446,14 +446,14 @@ input[type="submit"]:hover {
   h3{
     flex: 1;
     margin: 30px 0px;
-    color: $black !important;
+    color: $white !important;
     font-size: 2.5rem;
   }
 
   h3::after,h3::before {
      display: inline-block;
      content: "";
-     border-top: 2px solid black;
+     border-top: 2px solid $white;
      width: 21%;
      margin: 0 1rem;
      transform: translateY(-1rem);

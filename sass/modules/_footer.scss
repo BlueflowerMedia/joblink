@@ -1,5 +1,7 @@
 footer{
-      background-color: #000;
+  background: linear-gradient(rgba(60, 0, 60, 0.85), rgba(0, 0, 60, 0.75)), url(images/footer-back.jpg);
+
+  background-size: cover;
   .container{
 
     padding: 50px 8%;
