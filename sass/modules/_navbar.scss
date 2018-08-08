@@ -5,6 +5,7 @@
 	position: fixed;
 	background: transparent;
 	width: 100vw;
+	transition: all 0.3s cubic-bezier(.61,.8,.43,.21);
 	@media(max-width: 768px){
 		padding-right: 0px;
 	}

@@ -1317,7 +1317,8 @@ button.nav-contact {
   padding-right: 50px;
   position: fixed;
   background: transparent;
-  width: 100vw; }
+  width: 100vw;
+  transition: all 0.3s cubic-bezier(0.61, 0.8, 0.43, 0.21); }
   @media (max-width: 768px) {
     #masthead {
       padding-right: 0px; } }
@@ -1515,7 +1516,6 @@ footer {
               margin-right: 0px; } }
         footer .container .footer-left .one-row input {
           border-color: #30A5EE;
-          border-radius: 2.5vw;
           border-width: .15vw;
           padding: .5vw;
           margin-bottom: 12px;
@@ -1527,25 +1527,28 @@ footer {
       footer .container .footer-left textarea {
         padding: .5vw;
         border-color: #30A5EE;
-        border-radius: 1.5vw;
         border-width: .15vw;
         width: 100%;
         outline: none;
-        height: 24vh; }
+        height: 30vh; }
       footer .container .footer-left .wpcf7-submit {
-        background-color: #30A5EE;
-        color: #000;
-        font-size: 1.5rem;
-        border: none;
-        border-radius: 40px;
         width: 8vw;
         font-family: "Lora", serif;
-        padding: .5vw;
-        outline: none; }
+        font-size: 20px;
+        border-radius: 50px;
+        border: 2px solid #30A5EE;
+        color: #30A5EE;
+        background: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
         @media (max-width: 425px) {
           footer .container .footer-left .wpcf7-submit {
             width: 20vw;
             padding: 1.5vw; } }
+      footer .container .footer-left .wpcf7-submit:hover {
+        background: linear-gradient(24deg, #3498db, #1abc9c);
+        color: #fff; }
       @media (max-width: 425px) {
         footer .container .footer-left {
           text-align: -webkit-center; }
@@ -1667,11 +1670,11 @@ footer {
 
 .how-it-works .how-container {
   background-color: #F9F9F9;
-  height: 900px;
+  height: 680px;
   display: flex; }
   .how-it-works .how-container .how-left {
     background-color: #30A5EE;
-    height: 900px;
+    height: 680px;
     width: 70vw;
     border-top-right-radius: 110px; }
     .how-it-works .how-container .how-left h4 {
@@ -1679,7 +1682,7 @@ footer {
       font-size: 2.5rem;
       font-family: "Open Sans", sans-serif;
       margin: 0 !important;
-      padding: 100px 200px 30px 200px; }
+      padding: 100px 200px 5px 150px; }
       @media (max-width: 1200px) {
         .how-it-works .how-container .how-left h4 {
           padding: 80px 200px 30px 150px; } }
@@ -1695,10 +1698,10 @@ footer {
     .how-it-works .how-container .how-left .bullet-text-container {
       display: flex;
       height: auto;
-      margin: 80px 100px 120px 200px; }
+      margin: 60px 80px 60px 150px; }
       @media (max-width: 1200px) {
         .how-it-works .how-container .how-left .bullet-text-container {
-          margin: 105px 100px 90px 100px; } }
+          margin: 60px 80px 60px 100px; } }
       .how-it-works .how-container .how-left .bullet-text-container .circle {
         height: 80px;
         width: 80px;
@@ -1731,16 +1734,16 @@ footer {
           font-style: italic;
           line-height: 40px; }
   .how-it-works .how-container .how-right {
-    height: 900px;
+    height: 680px;
     width: 30vw;
-    padding: 100px; }
+    padding: 120px 100px 80px 100px; }
     .how-it-works .how-container .how-right .image-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px 0px; }
+      padding: 5px 0px; }
       .how-it-works .how-container .how-right .image-container img {
-        max-width: 200px;
+        max-width: 170px;
         width: auto; }
 @media (max-width: 800px) {
   .how-it-works {
@@ -1819,6 +1822,9 @@ footer {
     padding: 10px 20px;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
+  .post-job .button1:hover, .post-job .button2:hover, .register-job .button1:hover, .register-job .button2:hover {
+    background: linear-gradient(24deg, #3498db, #1abc9c);
+    color: #fff; }
   .post-job .apple-ball, .register-job .apple-ball {
     display: none; }
   .post-job .ball-cat, .register-job .ball-cat {
@@ -1847,7 +1853,7 @@ footer {
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 5vh;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .post-job h3, .register-job h3 {
     color: #2a2a2a;
     text-align: center; }
@@ -1906,7 +1912,6 @@ input:focus, textarea:focus {
 
 input[type="submit"] {
   font-size: 15px;
-  border-radius: 50px;
   border: 2px solid #30A5EE;
   color: #30A5EE;
   background: white;
@@ -1915,9 +1920,10 @@ input[type="submit"] {
   transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
 
 input[type="submit"]:hover {
-  border: 2px solid #30A5EE;
-  background-color: #30A5EE;
-  color: white; }
+  background: linear-gradient(24deg, #3498db, #1abc9c);
+  color: white;
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+  border-image-slice: 1; }
 
 .testimonials-container {
   text-align: center;

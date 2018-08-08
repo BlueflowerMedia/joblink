@@ -179,23 +179,26 @@
     <div class="row2">
       <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
-        <p class="text">I used the Job Link Corporate website to find myself a job in IT Support. It was a very smooth experience, they got in touch with me shortly after. I was interviewed by my company and got the job within 1 week!</p>
         <p class="name">Ryan</p>
         <p class="company">Toronto</p>
+        <p class="text">I used the Job Link Corporate website to find myself a job in IT Support. It was a very smooth experience, they got in touch with me shortly after. I was interviewed by my company and got the job within 1 week!</p>
+
       </div>
 
       <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/khokhan.jpg" alt="">
-        <p class="text">I was looking for a waitress for my restaurant and we needed one very urgently. I called Job Link Corporate and I found someone very qualified within 3 days!</p>
         <p class="name">Khokhan</p>
         <p class="company">Khokhan Corporate</p>
+        <p class="text">I was looking for a waitress for my restaurant and we needed one very urgently. I called Job Link Corporate and I found someone very qualified within 3 days!</p>
+
       </div>
 
       <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/raj.jpg" alt="">
-        <p class="text">I needed a second job to pay my bills. I used this website as my last source of hope, hoping to find a job right away. I was very delighted when I found a stable second job in demolition with Job link Corporate.</p>
         <p class="name">Raj</p>
         <p class="company">India</p>
+        <p class="text">I needed a second job to pay my bills. I used this website as my last source of hope, hoping to find a job right away. I was very delighted when I found a stable second job in demolition with Job link Corporate.</p>
+
       </div>
     </div>
   </div>

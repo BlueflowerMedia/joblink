@@ -112,11 +112,11 @@
   .how-container{
 
     background-color: $grey;
-    height: 900px;
+    height: 680px;
     display: flex;
     .how-left{
       background-color: $blue;
-      height: 900px;
+      height: 680px;
       width: 70vw;
       border-top-right-radius: 110px;
       h4 {
@@ -124,7 +124,7 @@
         font-size: 2.5rem;
         font-family: $font-secondary;
         margin: 0 !important;
-        padding: 100px 200px 30px 200px;
+        padding: 100px 200px 5px 150px;
         @media (max-width: 1200px){
           padding: 80px 200px 30px 150px;
 
@@ -144,9 +144,9 @@
       .bullet-text-container{
         display: flex;
         height: auto;
-        margin: 80px 100px 120px 200px;
+        margin: 60px 80px 60px 150px;
         @media (max-width: 1200px){
-          margin: 105px 100px 90px 100px;
+          margin: 60px 80px 60px 100px;
         }
         .circle {
           height: 80px;
@@ -186,16 +186,16 @@
       }
     }
     .how-right{
-      height: 900px;
+      height: 680px;
       width: 30vw;
-      padding: 100px;
+      padding: 120px 100px 80px 100px;
       .image-container{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px 0px;
+        padding: 5px 0px;
         img{
-          max-width: 200px;
+          max-width: 170px;
           width: auto;
         }
       }
@@ -213,8 +213,6 @@
   height: auto;
   background-color: $blue;
   padding: 15vw  5vw;
-
-
 
   h3{
     margin: 0 !important;
@@ -302,6 +300,11 @@
     cursor: pointer;
     transition: all 0.3s cubic-bezier(.37,1.06,.6,.97);
   }
+
+  .button1:hover,.button2:hover{
+    background: linear-gradient(24deg, #3498db, #1abc9c);
+    color: $white;
+  }
   .apple-ball{
     display: none;
   }
@@ -330,7 +333,7 @@
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 5vh;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   h3{
     color: $black;
@@ -405,7 +408,7 @@ input:focus, textarea:focus {
 }
 input[type="submit"] {
     font-size: 15px;
-  border-radius: 50px;
+  // border-radius: 50px;
     border: 2px solid $blue;
   color: $blue;
   background: white;
@@ -414,9 +417,11 @@ input[type="submit"] {
     transition: all 0.3s cubic-bezier(.37,1.06,.6,.97);
 }
 input[type="submit"]:hover {
-    border: 2px solid $blue;
-  background-color: $blue;
+    // border: 2px solid $blue;
+  background:linear-gradient(24deg, #3498db, #1abc9c);
     color: white;
+    border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+     border-image-slice: 1;
 }
 
 

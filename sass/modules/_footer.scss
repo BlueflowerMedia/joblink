@@ -36,7 +36,7 @@ footer{
 
        input{
        border-color: $blue;
-       border-radius: 2.5vw;
+       //border-radius: 2.5vw;
        border-width: .15vw;
        padding: .5vw;
        margin-bottom: 12px;
@@ -50,26 +50,33 @@ footer{
      textarea{
        padding: .5vw;
        border-color: $blue;
-       border-radius: 1.5vw;
+       //border-radius: 1.5vw;
        border-width: .15vw;
        width: 100%;
        outline: none;
-       height: 24vh;
+       height: 30vh;
      }
      .wpcf7-submit {
-       background-color: $blue;
-       color: #000;
-       font-size: 1.5rem;
-       border: none;
-       border-radius: 40px;
        width: 8vw;
        font-family: $font-primary;
-       padding: .5vw;
-       outline: none;
+       font-size: 20px;
+       border-radius: 50px;
+       border: 2px solid $blue;
+       color: $blue;
+       background: white;
+       padding: 10px 20px;
+       cursor: pointer;
+       transition: all 0.3s cubic-bezier(.37,1.06,.6,.97);
+
        @media (max-width: 425px){
          width:20vw;
          padding: 1.5vw;
        }
+     }
+
+     .wpcf7-submit:hover{
+       background: linear-gradient(24deg, #3498db, #1abc9c);
+       color: $white;
      }
      @media (max-width: 425px){
            text-align: -webkit-center;
