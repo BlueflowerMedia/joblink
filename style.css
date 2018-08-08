@@ -1489,7 +1489,7 @@ button.nav-contact {
   background-color: #2a2a2a; }
 
 footer {
-  background: linear-gradient(rgba(60, 0, 60, 0.85), rgba(0, 0, 60, 0.75)), url(images/footer-back.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url(images/footer-back.jpg);
   background-size: cover; }
   footer .container {
     padding: 50px 8%;
