@@ -42,8 +42,11 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin-bottom: -25%;
+  @media (max-width: 1200px){
+        margin-bottom: -50%;
+  }
   @media (max-width: 425px){
-    margin-bottom: -40%;
+    margin-bottom: -60%;
   }
 
 	.container-mission{
