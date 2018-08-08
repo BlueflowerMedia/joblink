@@ -1670,11 +1670,11 @@ footer {
 
 .how-it-works .how-container {
   background-color: #F9F9F9;
-  height: 680px;
+  height: 660px;
   display: flex; }
   .how-it-works .how-container .how-left {
     background-color: #30A5EE;
-    height: 680px;
+    height: 660px;
     width: 70vw;
     border-top-right-radius: 110px; }
     .how-it-works .how-container .how-left h4 {
@@ -1734,7 +1734,7 @@ footer {
           font-style: italic;
           line-height: 40px; }
   .how-it-works .how-container .how-right {
-    height: 680px;
+    height: 660px;
     width: 30vw;
     padding: 120px 100px 80px 100px; }
     .how-it-works .how-container .how-right .image-container {
