@@ -400,7 +400,7 @@ input[type="file"]:focus {
 input:focus, textarea:focus {
   outline: none;
   border: 2px solid;
-  border-image-source: linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
+  border-image-source: linear-gradient(24deg,#4E408A 10%, #3498db, #1abc9c);
    border-image-slice: 1;
    // border-radius: 40px;
   box-sizing: border-box;
@@ -418,9 +418,9 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     // border: 2px solid $blue;
-  background:linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
+  background:linear-gradient(24deg,#4E408A 10%, #3498db, #1abc9c);
     color: white;
-    border-image-source: linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
+    border-image-source: linear-gradient(24deg,#4E408A 10%, #3498db, #1abc9c);
      border-image-slice: 1;
 }
 
@@ -454,7 +454,7 @@ input[type="submit"]:hover {
      display: inline-block;
      content: "";
      border-top: 2px solid $white;
-     width: 21%;
+     width: 20%;
      margin: 0 1rem;
      transform: translateY(-1rem);
      vertical-align: bottom;

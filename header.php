@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
-		
+
     <!-- navbar left -->
 		<div class="nav-left">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Joblink logo"></a>
@@ -34,6 +34,7 @@
 			<a href="#works">How it works</a>
 			<a href="#postjob">Post a Job</a>
 			<a href="#register">Find a Job</a>
+			<a href="#testimonials">Testimonials</a>
 			<a href="#colophon">Contact</a>
     </div>
 
@@ -52,6 +53,7 @@
 				<li><a href="#worksm" onclick="closeHamburger()">How it works</a></li>
 				<li><a href="#postjob" onclick="closeHamburger()">Post a Job</a></li>
 				<li><a href="#register" onclick="closeHamburger()">Find a Job</a></li>
+				<li><a href="#testimonials" onclick="closeHamburger()">Testimonials</a></li>
 				<li><a href="#colophon" onclick="closeHamburger()">Contact</a></li>
 			</ul>
 		</div>

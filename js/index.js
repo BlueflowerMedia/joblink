@@ -47,3 +47,16 @@ $(document).ready(function(){
     $(".ball-cat").addClass("is-on");
   })
 })
+
+
+// (page services) Smoothly scroll to services after click
+$('a[href^="#"]').on('click', function(event) {
+	var target = $(this.getAttribute('href'));
+
+	if (target.length) {
+		event.preventDefault();
+		$('html, body').stop().animate({
+			scrollTop: target.offset().top-80
+		}, 1000);
+	}
+});
