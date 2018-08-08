@@ -302,7 +302,7 @@
   }
 
   .button1:hover,.button2:hover{
-    background: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
+    background: linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
     color: $white;
   }
   .apple-ball{
@@ -400,7 +400,7 @@ input[type="file"]:focus {
 input:focus, textarea:focus {
   outline: none;
   border: 2px solid;
-  border-image-source: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
+  border-image-source: linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
    border-image-slice: 1;
    // border-radius: 40px;
   box-sizing: border-box;
@@ -418,9 +418,9 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     // border: 2px solid $blue;
-  background:linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
+  background:linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
     color: white;
-    border-image-source: linear-gradient(24deg, #3498db, #1abc9c,#4E408A);
+    border-image-source: linear-gradient(24deg,#4E408A, #3498db, #1abc9c);
      border-image-slice: 1;
 }
 
@@ -467,6 +467,7 @@ input[type="submit"]:hover {
     text-align: center;
     margin: 40px auto;
     border-radius: 40px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     img {
       width: 100px;
@@ -498,10 +499,14 @@ input[type="submit"]:hover {
     .company{
       font-family: $font-secondary;
       font-size: 16px;
+      color: $blue;
       @media (max-width: 800px){
         font-size: 12px;
       }
 
+    }
+    @media (max-width:1300px){
+      padding: 30px 20px;
     }
   }
 }
