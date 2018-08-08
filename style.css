@@ -1357,7 +1357,7 @@ button.nav-contact {
     transition: transform .2s; }
     @media (max-width: 1100px) {
       .nav-right a {
-        font-size: 16px; } }
+        font-size: 13px; } }
   .nav-right a:hover {
     -ms-transform: scale(1.1);
     /* IE 9 */
@@ -1543,6 +1543,10 @@ footer {
         padding: 10px 20px;
         cursor: pointer;
         transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
+        @media (max-width: 768px) {
+          footer .container .footer-left .wpcf7-submit {
+            width: 12vw;
+            padding: 1.5vw; } }
         @media (max-width: 425px) {
           footer .container .footer-left .wpcf7-submit {
             width: 20vw;
@@ -1573,7 +1577,9 @@ footer {
         letter-spacing: 1px; }
       @media (max-width: 768px) {
         footer .container .footer-right {
-          padding-left: 10vw; } }
+          padding-left: 10vw; }
+          footer .container .footer-right p {
+            font-size: 15px; } }
       @media (max-width: 425px) {
         footer .container .footer-right h3 {
           margin-top: 50px;
