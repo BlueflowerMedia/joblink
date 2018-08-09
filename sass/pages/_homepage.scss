@@ -305,7 +305,7 @@
   }
 
   .button1:hover,.button2:hover{
-    background: linear-gradient(24deg,#4F6299, #3498db, #1abc9c);
+    background: linear-gradient(24deg, #3498db, #1abc9c);
     color: $white;
   }
   .apple-ball{
@@ -403,7 +403,7 @@ input[type="file"]:focus {
 input:focus, textarea:focus {
   outline: none;
   border: 2px solid;
-  border-image-source: linear-gradient(24deg,#4F6299 , #3498db, #1abc9c);
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
    border-image-slice: 1;
    // border-radius: 40px;
   box-sizing: border-box;
@@ -421,9 +421,9 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     // border: 2px solid $blue;
-  background:linear-gradient(24deg,#4F6299 , #3498db, #1abc9c);
+  background:linear-gradient(24deg, #3498db, #1abc9c);
     color: white;
-    border-image-source: linear-gradient(24deg,#4F6299 , #3498db, #1abc9c);
+    border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
      border-image-slice: 1;
 }
 
@@ -461,6 +461,9 @@ input[type="submit"]:hover {
      margin: 0 1rem;
      transform: translateY(-1rem);
      vertical-align: bottom;
+     @media (max-width: 350px){
+       width: 15%;
+     }
   }
   .test{
     flex-basis: 30%;

@@ -1834,7 +1834,7 @@ footer {
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
   .post-job .button1:hover, .post-job .button2:hover, .register-job .button1:hover, .register-job .button2:hover {
-    background: linear-gradient(24deg, #4F6299, #3498db, #1abc9c);
+    background: linear-gradient(24deg, #3498db, #1abc9c);
     color: #fff; }
   .post-job .apple-ball, .register-job .apple-ball {
     display: none; }
@@ -1916,7 +1916,7 @@ input[type="file"]:focus {
 input:focus, textarea:focus {
   outline: none;
   border: 2px solid;
-  border-image-source: linear-gradient(24deg, #4F6299, #3498db, #1abc9c);
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
   border-image-slice: 1;
   box-sizing: border-box;
   box-shadow: 0px 0px 40px -10px #DDDDDD; }
@@ -1931,9 +1931,9 @@ input[type="submit"] {
   transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
 
 input[type="submit"]:hover {
-  background: linear-gradient(24deg, #4F6299, #3498db, #1abc9c);
+  background: linear-gradient(24deg, #3498db, #1abc9c);
   color: white;
-  border-image-source: linear-gradient(24deg, #4F6299, #3498db, #1abc9c);
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
   border-image-slice: 1; }
 
 .testimonials-container {
@@ -1961,6 +1961,9 @@ input[type="submit"]:hover {
       margin: 0 1rem;
       transform: translateY(-1rem);
       vertical-align: bottom; }
+      @media (max-width: 350px) {
+        .testimonials-container .row2 h3::after, .testimonials-container .row2 h3::before {
+          width: 15%; } }
     .testimonials-container .row2 .test {
       flex-basis: 30%;
       height: auto;
