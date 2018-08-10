@@ -1607,11 +1607,6 @@ footer {
           text-align: center;
           float: none; } }
 
-#Num {
-  font-style: normal;
-  text-decoration: none;
-  color: #fff !important; }
-
 .head1 {
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
   background-size: cover;
