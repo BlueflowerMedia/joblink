@@ -21,14 +21,14 @@
 	    </div>
 	    <div class="footer-right">
 				<h3>Contact Info.</h3>
-				<p><strong>Call: </strong>01871775547</p><br>
+				<p id="Num"><strong>Call: </strong>01 871 775 547</p><br>
 				<p><strong>Email: </strong>infoatnorthamerica@gmail.com</p><br>
 				<p><strong>Address:</strong></p><br>
 				<p>House #10, Road #06, Block-B,</p>
 				<p> Banasree, Rampura,</p>
 				<p>Dhaka - 1219, Bangladesh</p><br>
 				<p><strong>Payment Info:</strong></p><br>
-				<p>A/C No. 14024 38 68 5001</p>
+				<p id="Num">A/C No. 14024 38 68 5001</p>
 				<p>The City Bank Ltd., Banani Branch</p>
 				<p>Dhaka, Bangladesh</p>
 
