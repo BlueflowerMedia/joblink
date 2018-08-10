@@ -1609,7 +1609,8 @@ footer {
 
 #Num {
   font-style: normal;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px #fff; }
 
 .head1 {
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
