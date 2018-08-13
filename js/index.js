@@ -1,12 +1,4 @@
-// Stopping animation before all elements are loaded (for header banner)
-function jsloading() {
-  document.body.className += " js-loading";
-  window.addEventListener("load", showPage, false);
-  function showPage() {
-    document.body.className = document.body.className.replace("js-loading", "");
-  }
-}
-jsloading();
+
 
 // navbar color change on scroll
 

@@ -16,6 +16,17 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script type="text/javascript">
+	// Stopping animation before all elements are loaded (for header banner)
+	function jsloading() {
+		document.body.className += " js-loading";
+		window.addEventListener("load", showPage, false);
+		function showPage() {
+			document.body.className = document.body.className.replace("js-loading", "");
+		}
+	}
+	jsloading();
+	</script>
 	<?php wp_head(); ?>
 </head>
 
