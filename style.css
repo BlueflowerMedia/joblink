@@ -1608,7 +1608,7 @@ footer {
           float: none; } }
 
 .head1 {
-  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
+  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/header.jpg);
   background-size: cover;
   transform: translateY(0%);
   overflow: hidden;
@@ -2020,3 +2020,5 @@ input[type="submit"]:hover {
       @media (max-width: 1300px) {
         .testimonials-container .row2 .test {
           padding: 30px 20px; } }
+
+/*# sourceMappingURL=style.css.map */
