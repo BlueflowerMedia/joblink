@@ -1,3 +1,9 @@
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 .head1{
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/header.jpg);
   background-size: cover;
