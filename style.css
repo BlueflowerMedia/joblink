@@ -1934,8 +1934,8 @@ input[type="file"]:focus {
 
 input:focus, textarea:focus {
   outline: none;
-  border: 2px solid;
-  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+  border: 2px solid !important;
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c) !important;
   border-image-slice: 1;
   box-sizing: border-box;
   box-shadow: 0px 0px 40px -10px #DDDDDD; }
