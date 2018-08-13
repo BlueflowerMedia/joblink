@@ -1612,8 +1612,8 @@ footer {
   background-size: cover;
   transform: translateY(0%);
   animation: slide-down .3s ease-out;
-  -webkit-animation: slide-down .3s ease-out;
-  -moz-animation: slide-down .3s ease-out;
+  -webkit-animation: slide-down .6s ease-out;
+  -moz-animation: slide-down .6s ease-out;
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
