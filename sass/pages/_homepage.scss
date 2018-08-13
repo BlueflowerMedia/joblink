@@ -388,7 +388,8 @@ $light-grey: #efefef;
     input, textarea {
       // border-radius: 40px;
       width: 100%;
-      border: 2px solid $light-grey;
+      border: 2px solid;
+      border-color: $light-grey;
       padding: 10px 15px;
     }
     textarea {
