@@ -1915,7 +1915,7 @@ footer {
     min-width: 250px; }
     .form-row label.file {
       padding: 20px 10px;
-      border: 2px solid #DDDDDD;
+      border: 2px solid #efefef;
       border-radius: 20px; }
       .form-row label.file input {
         padding: 0; }

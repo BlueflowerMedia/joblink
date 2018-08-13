@@ -379,7 +379,7 @@ $light-grey: #efefef;
     min-width: 250px;
         &.file {
             padding: 20px 10px;
-            border: 2px solid $grey;
+            border: 2px solid $light-grey;
             border-radius: 20px;
             input {
                 padding: 0;
@@ -388,7 +388,7 @@ $light-grey: #efefef;
     input, textarea {
       // border-radius: 40px;
       width: 100%;
-            border: 2px, solid $light-grey;
+      border: 2px, solid $light-grey;
       padding: 10px 15px;
     }
     textarea {
