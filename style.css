@@ -1921,7 +1921,7 @@ footer {
         padding: 0; }
     .form-row label input, .form-row label textarea {
       width: 100%;
-      border: 2px, solid #DDDDDD;
+      border: 2px, solid #efefef;
       padding: 10px 15px; }
     .form-row label textarea {
       padding: 15px; }

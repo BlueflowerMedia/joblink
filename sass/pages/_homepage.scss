@@ -357,6 +357,8 @@
 /* CONTACT FORM */
 $blue: #30A5EE;
 $grey: #DDDDDD;
+$light-grey: #efefef;
+
 #form-employer, #form-employee {
   background: white;
     max-width: 1000px;
@@ -386,7 +388,7 @@ $grey: #DDDDDD;
     input, textarea {
       // border-radius: 40px;
       width: 100%;
-            border: 2px, solid $grey;
+            border: 2px, solid $light-grey;
       padding: 10px 15px;
     }
     textarea {
