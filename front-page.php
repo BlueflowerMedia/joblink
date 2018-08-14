@@ -125,14 +125,16 @@
 
     <div class="row3">
       <div class="postjob-text">
-        <p>Praesent lacinia ultrices lorem non venenatis. Sed finibus consectetur leo ut egestas. Vivamus vitae nisl sit amet est dictum sagittis ac non metus. Donec ultrices placerat lacus non pellentesque. Curabitur ut efficitur lacus. Vivamus nec sapien congue purus mattis sagittis. Ut id urna sapien. Nam quis lobortis mauris. Aliquam iaculis mollis tortor vitae efficitur. Praesent feugiat est eget rutrum sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<h3>Finding the right person for your job has never been easier!</h3>
+			<p>We find you competent workers with expertise in many different fields including doctors, nurses, drivers, engineers, general labour and many more. We speak with our employees to understand their time accomodation that will best fit your project whether that is a full-time, part-time or a temporary position. </p>
+			<p>Just fill up the form provided below and we will get back to you as soon as possible.</p>
       </div>
       <div class="postjob-image">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
       </div>
     </div>
 
-    <button type="button" name="button" class="button1">Click Here!</button>
+    <button type="button" name="button" class="button1">Click Here to Post a Job</button>
     <div class="apple-ball">
         <?php echo do_shortcode('[contact-form-7 id="5" title="form-employer"]') ?>
     </div>
@@ -160,7 +162,7 @@
       </div>
     </div>
 
-    <button type="button" name="button" class="button2">Click Here!</button>
+    <button type="button" name="button" class="button2">Click Here to Register as An Employee</button>
     <div class="ball-cat">
       <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
     </div>
