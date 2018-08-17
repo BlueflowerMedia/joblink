@@ -125,7 +125,7 @@
 
     <div class="row3">
       <div class="postjob-text">
-			<h4>Finding the right person for your job has never been easier!</h4>
+			<h4 style="color:black">Finding the right person for your job has never been easier!</h4>
 			<p>We find you competent workers with expertise in many different fields including doctors, nurses, drivers, engineers, general labour and many more. We speak with our employees to understand their time accomodation that will best fit your project whether that is a full-time, part-time or a temporary position. </p>
 			<p>Just fill up the form provided below and we will get back to you as soon as possible.</p>
       </div>
@@ -158,7 +158,7 @@
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
       </div>
       <div class="postjob-text">
-			<h4>Are you a trained professional looking to be hired?</h4>
+			<h4 style="color:black">Are you a trained professional looking to be hired?</h4>
 			<p>There are plenty of professionals out there with expertise and experience that have yet to find a job and if you are one of them, JobLink is the solution for you! We create a database of potential employees such as yourself and wait for an employer from our vast connection to match you up for the perfect job.</p>
 			<p>If you are either a doctor, nurse, driver or have qualification in any field of work and now confident enough to enter the workforce, be sure to sign up using the following form. It will help us categorize your expertise and experience to find the most suitable job for you.</p>
       </div>
