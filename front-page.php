@@ -125,7 +125,7 @@
 
     <div class="row3">
       <div class="postjob-text">
-			<h4 style="color:black; text-align:lef;">Finding the right person for your job has never been easier!</h4>
+			<h4 style="color:black; text-align:left;">Finding the right person for your job has never been easier!</h4>
 			<p>We find you competent workers with expertise in many different fields including doctors, nurses, drivers, engineers, general labour and many more. We speak with our employees to understand their time accomodation that will best fit your project whether that is a full-time, part-time or a temporary position. </p>
 			<p>Just fill up the form provided below and we will get back to you as soon as possible.</p>
       </div>
