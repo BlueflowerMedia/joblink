@@ -1833,7 +1833,7 @@ footer {
     color: black;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 10vw 5vw 10vw 5vw; }
+    padding: 10vh 5vw; }
     #mission-new .mission-new-container h3, #mission-new .mission-new-container h4 {
       color: black;
       font-family: "Lora", serif !important; }
