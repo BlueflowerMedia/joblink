@@ -1951,6 +1951,10 @@ footer {
     flex: 1;
     margin: 10px 10px;
     min-width: 250px; }
+    .form-row label .industry {
+      border: 2px solid #efefef;
+      text-align: start;
+      padding: 10px 15px; }
     .form-row label.file {
       padding: 20px 10px;
       border: 2px solid #efefef;
