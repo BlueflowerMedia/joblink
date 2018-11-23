@@ -116,6 +116,36 @@
 </section>
 
 
+<!-- section mission -->
+<section id="mission-new">
+  <div class="mission-new-container">
+
+    <div class="mission-new-left">
+      <h4>OUR MISSION IS SIMPLE: TO HELP EMPLOYERS ACHIEVE ORGANISATIONAL SUCCESS THROUGH PEOPLE</h4><br>
+      <p>To accomplish this, we rely on five core principles that guide our business strategy, behavior and relationships:There’s nothing like a mission to excite and unite people in a common goal. At Hudson, our company mission is simple: we want to be the world’s best at helping employers achieve organisational success through people. At each step of the relationship with our clients and candidates, we deliver value, advice and expert point of view.</p>
+    </div>
+    <div class="mission-new-right">
+      <ul>
+        <li><strong>Integrity:</strong>
+          We embrace and uphold the highest standards of personal and professional ethics, honesty and trust.</li><br>
+          <li><strong>Respect:</strong>
+            We treat everyone with uncompromising respect, civility and fairness.</li><br>
+          <li><strong>Collaboration:</strong>
+            We work as a team and share knowledge for continuous improvement, learning and innovation.</li><br>
+          <li><strong>
+            Empowerment:</strong>
+            We are empowered to deliver operational excellence through innovation and leadership at all levels.
+          </li></br>
+          <li><strong>
+            Responsibility:</strong>
+            We are responsible to fulfill our commitments to colleagues and clients with a clear understanding of the urgency and accountability inherent in those commitments.
+          </li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
 <!-- post a job -->
 <section id="postjob">
 
@@ -130,7 +160,7 @@
 			<p>Just fill up the form provided below and we will get back to you as soon as possible.</p>
       </div>
       <div class="postjob-image">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/adult-employee.jpg" alt="">
       </div>
     </div>
 
@@ -155,7 +185,7 @@
     <div class="row3">
 
       <div class="postjob-image">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/adult-employee-corporate.jpg" alt="">
       </div>
       <div class="postjob-text">
 			<h4 style="color:black; text-align:left;">Are you a trained professional looking to be hired?</h4>

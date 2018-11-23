@@ -1607,6 +1607,11 @@ footer {
           text-align: center;
           float: none; } }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important; }
+
 .head1 {
   background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/header.jpg);
   background-size: cover;
@@ -1821,6 +1826,36 @@ footer {
     .howm-container {
       display: none; } }
 
+#mission-new {
+  background-color: aliceblue; }
+  #mission-new .mission-new-container {
+    font-family: "Lora", serif;
+    color: black;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10vw 5vw 10vw 5vw; }
+    #mission-new .mission-new-container h3, #mission-new .mission-new-container h4 {
+      color: black;
+      font-family: "Lora", serif !important; }
+    @media (min-width: 800px) {
+      #mission-new .mission-new-container {
+        display: flex; } }
+    #mission-new .mission-new-container .mission-new-left {
+      flex: 1; }
+      @media (min-width: 800px) {
+        #mission-new .mission-new-container .mission-new-left {
+          padding: 2vw; } }
+    #mission-new .mission-new-container .mission-new-right {
+      flex: 1; }
+      @media (min-width: 800px) {
+        #mission-new .mission-new-container .mission-new-right {
+          padding: 2vw; } }
+      #mission-new .mission-new-container .mission-new-right ul {
+        margin: 0;
+        list-style-type: disc;
+        content: '\276c';
+        padding-inline-start: 10px; }
+
 .post-job, .register-job {
   text-align: center; }
   .post-job h3, .register-job h3 {
@@ -1883,7 +1918,7 @@ footer {
     color: #30A5EE;
     font-family: "Lora", serif;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-bottom: 5vh;
     font-size: 1.2rem; }
   .post-job h3, .register-job h3 {
@@ -1958,6 +1993,9 @@ input[type="submit"]:hover {
   border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
   border-image-slice: 1; }
 
+.aliceblue {
+  background-color: aliceblue; }
+
 .testimonials-container {
   text-align: center;
   background: linear-gradient(24deg, #3498db, #1abc9c);
@@ -2024,5 +2062,3 @@ input[type="submit"]:hover {
       @media (max-width: 1300px) {
         .testimonials-container .row2 .test {
           padding: 30px 20px; } }
-
-/*# sourceMappingURL=style.css.map */

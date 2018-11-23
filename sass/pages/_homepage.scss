@@ -270,7 +270,47 @@
   }
 }
 
+// mission new section
+#mission-new{
+  background-color: aliceblue;
+  .mission-new-container{
+    font-family: $font-primary;
+    color: black;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10vw 5vw 10vw 5vw;
 
+    h3,h4{
+      color: black;
+      font-family: $font-primary!important;
+    }
+    @media (min-width: 800px){
+      display:flex;
+    }
+
+    .mission-new-left{
+      flex: 1;
+      @media (min-width: 800px){
+      padding: 2vw;
+      }
+
+    }
+    .mission-new-right{
+      flex: 1;
+      @media (min-width: 800px){
+      padding: 2vw;
+      }
+
+      ul{
+        margin: 0;
+        list-style-type:disc;
+        content: '\276c';
+        padding-inline-start:10px ;
+      }
+
+    }
+  }
+}
 
 // post-a-job and register sections
 
@@ -345,7 +385,7 @@
     color: $blue;
     font-family: $font-primary;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-bottom: 5vh;
     font-size: 1.2rem;
   }
@@ -441,7 +481,9 @@ input[type="submit"]:hover {
      border-image-slice: 1;
 }
 
-
+.aliceblue{
+  background-color: aliceblue;
+}
 // Testimonials
 
 .testimonials-container{
