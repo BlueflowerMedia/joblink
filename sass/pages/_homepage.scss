@@ -1,7 +1,16 @@
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 .head1{
-  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
+  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/header.jpg);
   background-size: cover;
   transform: translateY(0%);
+  animation: slide-down .3s ease-out;
+  -webkit-animation: slide-down .6s ease-out;
+  -moz-animation: slide-down .6s ease-out;
 
   overflow: hidden;
   min-width: 100%;
@@ -30,6 +39,8 @@
     }
   }
 }
+
+
 // MIXIN FOR THE SLANTED BOTTOM
 .bottom-right{
   @include slanted-edge(bottom-right,100%,87%);
@@ -357,6 +368,8 @@
 /* CONTACT FORM */
 $blue: #30A5EE;
 $grey: #DDDDDD;
+$light-grey: #efefef;
+
 #form-employer, #form-employee {
   background: white;
     max-width: 1000px;
@@ -377,7 +390,7 @@ $grey: #DDDDDD;
     min-width: 250px;
         &.file {
             padding: 20px 10px;
-            border: 2px solid $grey;
+            border: 2px solid $light-grey;
             border-radius: 20px;
             input {
                 padding: 0;
@@ -386,7 +399,8 @@ $grey: #DDDDDD;
     input, textarea {
       // border-radius: 40px;
       width: 100%;
-            border: 2px, solid $grey;
+      border: 2px solid;
+      border-color: $light-grey;
       padding: 10px 15px;
     }
     textarea {
@@ -402,9 +416,9 @@ input[type="file"]:focus {
 }
 input:focus, textarea:focus {
   outline: none;
-  border: 2px solid;
-  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
-   border-image-slice: 1;
+  border: 2px solid !important;
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c) !important;
+   border-image-slice: 1 !important;
    // border-radius: 40px;
   box-sizing: border-box;
   box-shadow: 0px 0px 40px -10px $grey;

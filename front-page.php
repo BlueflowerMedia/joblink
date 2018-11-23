@@ -125,14 +125,16 @@
 
     <div class="row3">
       <div class="postjob-text">
-        <p>Praesent lacinia ultrices lorem non venenatis. Sed finibus consectetur leo ut egestas. Vivamus vitae nisl sit amet est dictum sagittis ac non metus. Donec ultrices placerat lacus non pellentesque. Curabitur ut efficitur lacus. Vivamus nec sapien congue purus mattis sagittis. Ut id urna sapien. Nam quis lobortis mauris. Aliquam iaculis mollis tortor vitae efficitur. Praesent feugiat est eget rutrum sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<h4 style="color:black; text-align:left;">Finding the right person for your job has never been easier!</h4>
+			<p>We find you competent workers with expertise in many different fields including doctors, nurses, drivers, engineers, general labour and many more. We speak with our employees to understand their time accomodation that will best fit your project whether that is a full-time, part-time or a temporary position. </p>
+			<p>Just fill up the form provided below and we will get back to you as soon as possible.</p>
       </div>
       <div class="postjob-image">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
       </div>
     </div>
 
-    <button type="button" name="button" class="button1">Click Here!</button>
+    <button type="button" name="button" class="button1">Click Here to Post a Job</button>
     <div class="apple-ball">
         <?php echo do_shortcode('[contact-form-7 id="5" title="form-employer"]') ?>
     </div>
@@ -156,11 +158,13 @@
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonials/ryan.jpeg" alt="">
       </div>
       <div class="postjob-text">
-        <p>Praesent lacinia ultrices lorem non venenatis. Sed finibus consectetur leo ut egestas. Vivamus vitae nisl sit amet est dictum sagittis ac non metus. Donec ultrices placerat lacus non pellentesque. Curabitur ut efficitur lacus. Vivamus nec sapien congue purus mattis sagittis. Ut id urna sapien. Nam quis lobortis mauris. Aliquam iaculis mollis tortor vitae efficitur. Praesent feugiat est eget rutrum sagittis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<h4 style="color:black; text-align:left;">Are you a trained professional looking to be hired?</h4>
+			<p>There are plenty of professionals out there with expertise and experience that have yet to find a job and if you are one of them, JobLink is the solution for you! We create a database of potential employees such as yourself and wait for an employer from our vast connection to match you up for the perfect job.</p>
+			<p>If you are either a doctor, nurse, driver or have qualification in any field of work and now confident enough to enter the workforce, be sure to sign up using the following form. It will help us categorize your expertise and experience to find the most suitable job for you.</p>
       </div>
     </div>
 
-    <button type="button" name="button" class="button2">Click Here!</button>
+    <button type="button" name="button" class="button2">Click Here to Register as An Employee</button>
     <div class="ball-cat">
       <?php echo do_shortcode('[contact-form-7 id="11" title="form-employee"]') ?>
     </div>

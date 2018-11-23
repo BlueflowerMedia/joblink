@@ -1,3 +1,5 @@
+
+
 // navbar color change on scroll
 
   var navbar = $("#masthead");

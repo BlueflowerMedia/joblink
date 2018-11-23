@@ -1608,9 +1608,12 @@ footer {
           float: none; } }
 
 .head1 {
-  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/business-career-confidence-776615.jpg);
+  background: linear-gradient(rgba(60, 0, 60, 0.45), rgba(0, 0, 60, 0.45)), url(images/header.jpg);
   background-size: cover;
   transform: translateY(0%);
+  animation: slide-down .3s ease-out;
+  -webkit-animation: slide-down .6s ease-out;
+  -moz-animation: slide-down .6s ease-out;
   overflow: hidden;
   min-width: 100%;
   z-index: -999;
@@ -1915,13 +1918,14 @@ footer {
     min-width: 250px; }
     .form-row label.file {
       padding: 20px 10px;
-      border: 2px solid #DDDDDD;
+      border: 2px solid #efefef;
       border-radius: 20px; }
       .form-row label.file input {
         padding: 0; }
     .form-row label input, .form-row label textarea {
       width: 100%;
-      border: 2px, solid #DDDDDD;
+      border: 2px solid;
+      border-color: #efefef;
       padding: 10px 15px; }
     .form-row label textarea {
       padding: 15px; }
@@ -1933,9 +1937,9 @@ input[type="file"]:focus {
 
 input:focus, textarea:focus {
   outline: none;
-  border: 2px solid;
-  border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
-  border-image-slice: 1;
+  border: 2px solid !important;
+  border-image-source: linear-gradient(24deg, #3498db, #1abc9c) !important;
+  border-image-slice: 1 !important;
   box-sizing: border-box;
   box-shadow: 0px 0px 40px -10px #DDDDDD; }
 
@@ -2020,3 +2024,5 @@ input[type="submit"]:hover {
       @media (max-width: 1300px) {
         .testimonials-container .row2 .test {
           padding: 30px 20px; } }
+
+/*# sourceMappingURL=style.css.map */
