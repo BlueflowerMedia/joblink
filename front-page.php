@@ -122,7 +122,7 @@
 
     <div class="mission-new-left">
       <h4>OUR MISSION IS SIMPLE: TO HELP EMPLOYERS ACHIEVE ORGANISATIONAL SUCCESS THROUGH PEOPLE</h4><br>
-      <p>To accomplish this, we rely on five core principles that guide our business strategy, behavior and relationships:There’s nothing like a mission to excite and unite people in a common goal. At Hudson, our company mission is simple: we want to be the world’s best at helping employers achieve organisational success through people. At each step of the relationship with our clients and candidates, we deliver value, advice and expert point of view.</p>
+      <p>To accomplish this, we rely on five core principles that guide our business strategy, behaviour and relationships. There’s nothing like a mission to excite and unite people in a common goal. At Hudson, our company mission is simple: we want to be the world’s best at helping employers achieve organisational success through people. At each step of the relationship with our clients and candidates, we deliver value, advice and expert point of view.</p>
     </div>
     <div class="mission-new-right">
       <ul>
@@ -138,7 +138,7 @@
           </li></br>
           <li><strong>
             Responsibility:</strong>
-            We are responsible to fulfill our commitments to colleagues and clients with a clear understanding of the urgency and accountability inherent in those commitments.
+            We are responsible to fulfil our commitments to colleagues and clients with a clear understanding of the urgency and accountability inherent in those commitments.
           </li>
       </ul>
     </div>
