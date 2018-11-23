@@ -429,7 +429,7 @@ $light-grey: #efefef;
     flex: 1;
     margin: 10px 10px;
     min-width: 250px;
-    .industry{
+    &.industry{
       border: 2px solid #efefef;
       text-align: start;
       padding: 10px 15px;
