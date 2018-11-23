@@ -454,6 +454,11 @@ $light-grey: #efefef;
       padding: 15px;
     }
   }
+  &.industry{
+    border: 2px solid #efefef;
+    text-align: start;
+    padding: 10px 15px;
+  }
 }
 input[type="file"]:focus {
     border-radius: 0px;

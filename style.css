@@ -1951,7 +1951,7 @@ footer {
     flex: 1;
     margin: 10px 10px;
     min-width: 250px; }
-    .form-row label .industry {
+    .form-row label.industry {
       border: 2px solid #efefef;
       text-align: start;
       padding: 10px 15px; }
@@ -1968,6 +1968,10 @@ footer {
       padding: 10px 15px; }
     .form-row label textarea {
       padding: 15px; }
+  .form-row.industry {
+    border: 2px solid #efefef;
+    text-align: start;
+    padding: 10px 15px; }
 
 input[type="file"]:focus {
   border-radius: 0px;
