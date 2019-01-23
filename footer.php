@@ -21,8 +21,11 @@
 	    </div>
 	    <div class="footer-right">
 				<h3>Contact Info.</h3>
-				<p id="Num"><strong>Call: </strong>01 871 775 547</p><br>
-				<p><strong>Email: </strong>infoatnorthamerica@gmail.com</p><br>
+				<p id="Num"><strong>Call:<br> </strong><br>Mossarraf Hossain: 01 818 631 217<br>
+					Sahadat Hossain: 01 820 079 532<br>
+					Rony: 01 780 111 959<br>
+					Rana: 01 871 775 547</p><br>
+				<p><strong>Email: </strong>northamerica@joblinkcorporate.com</p><br>
 				<p><strong>Address:</strong></p><br>
 				<p>House #10, Road #06, Block-B,</p>
 				<p> Banasree, Rampura,</p>
